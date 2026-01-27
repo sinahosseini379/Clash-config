@@ -1,109 +1,101 @@
-import requests
+#!/usr/bin/env python3
 import yaml
 import json
-import re
-import base64
+import requests
 from urllib.parse import urlparse, parse_qs
 
-# لینک subscription اصلی
-RAW_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt"
+CONFIG_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt"
+PREFERRED_COUNTRIES = ["US", "DE", "FI", "AT", "SE", "NL", "CH"]
 
-PRIORITY_ORDER = ["US", "DE", "FI", "RU", "AT", "FR", "JP"]
+def fetch_nodes(url):
+    r = requests.get(url, timeout=15)
+    r.raise_for_status()
+    lines = r.text.splitlines()
+    nodes = []
+    for line in lines:
+        line = line.strip()
+        if line.startswith("vless://") or line.startswith("vmess://"):
+            nodes.append(line)
+    return nodes
 
-def extract_links(text):
-    pattern = r"(vless://[^\s]+|vmess://[A-Za-z0-9+/=]+)"
-    return re.findall(pattern, text)
-
-def parse_vmess(link):
-    b64 = link.replace("vmess://", "")
-    b64 += "=" * ((4 - len(b64) % 4) % 4)
-    decoded = json.loads(base64.b64decode(b64).decode())
-    return {
-        "name": decoded.get("ps", "vmess"),
-        "type": "vmess",
-        "server": decoded.get("add"),
-        "port": int(decoded.get("port", 0)),
-        "uuid": decoded.get("id", ""),
-        "cipher": "auto",
-        "tls": decoded.get("tls") == "tls",
-        "network": decoded.get("net", "tcp"),
-        "ws-opts": {
-            "path": decoded.get("path", "/"),
-            "headers": {"Host": decoded.get("host", "")}
-        } if decoded.get("net") == "ws" else None
-    }
-
-def parse_vless(link):
-    link_fixed = link.replace("vless://", "http://")
-    u = urlparse(link_fixed)
-    q = parse_qs(u.query)
-    return {
-        "name": u.hostname,
+def parse_vless(url):
+    parsed = urlparse(url)
+    params = parse_qs(parsed.query)
+    node = {
+        "name": parsed.fragment if parsed.fragment else parsed.hostname,
         "type": "vless",
-        "server": u.hostname,
-        "port": u.port,
-        "uuid": u.username,
-        "tls": q.get("security", [""])[0] == "tls",
-        "flow": q.get("flow", [None])[0],
-        "network": q.get("type", ["tcp"])[0],
-        "servername": q.get("sni", [None])[0]
+        "server": parsed.hostname,
+        "port": int(parsed.port),
+        "uuid": parsed.username,
+        "tls": params.get("security", ["none"])[0].lower() == "tls",
+        "network": params.get("type", ["tcp"])[0],
+        "flow": params.get("flow", [None])[0],
+        "servername": params.get("sni", [parsed.hostname])[0],
     }
+    if node["network"] == "ws":
+        node["ws-opts"] = {
+            "path": params.get("path", ["/"])[0],
+            "headers": {"Host": params.get("host", [parsed.hostname])[0]},
+        }
+    return node
 
-def sort_by_location(proxies):
-    def get_priority(proxy):
-        for i, code in enumerate(PRIORITY_ORDER):
-            if code.lower() in proxy.get("server", "").lower():
+def sort_nodes(nodes):
+    def get_priority(name):
+        for i, country in enumerate(PREFERRED_COUNTRIES):
+            if country.lower() in name.lower():
                 return i
-        return len(PRIORITY_ORDER)
-    return sorted(proxies, key=get_priority)
+        return len(PREFERRED_COUNTRIES)
+    return sorted(nodes, key=lambda n: get_priority(n["name"]))
 
-def main():
-    print("Downloading subscription...")
-    text = requests.get(RAW_URL, timeout=15).text
-    links = extract_links(text)
-    print(f"Found {len(links)} links")
-
-    proxies = []
-    for link in links:
-        try:
-            if link.startswith("vmess://"):
-                proxies.append(parse_vmess(link))
-            elif link.startswith("vless://"):
-                proxies.append(parse_vless(link))
-        except Exception as e:
-            print(f"Error parsing link: {link} -> {e}")
-
-    proxies = sort_by_location(proxies)
-
-    # Clash
-    clash = {
+def build_clash_yaml(nodes):
+    proxies = nodes
+    proxy_names = [n["name"] for n in nodes]
+    clash_config = {
         "allow-lan": True,
         "log-level": "info",
         "mode": "rule",
         "mixed-port": 7890,
         "proxies": proxies,
         "proxy-groups": [
-            {
-                "name": "AUTO",
-                "type": "url-test",
-                "url": "http://www.gstatic.com/generate_204",
-                "interval": 300,
-                "proxies": [p["name"] for p in proxies]
-            }
+            {"name": "AUTO", "type": "fallback", "proxies": proxy_names, "url": "http://www.gstatic.com/generate_204", "interval": 300},
+            {"name": "BACKUP", "type": "select", "proxies": proxy_names},
+            {"name": "🇮🇷 Iran", "type": "select", "proxies": proxy_names}
         ],
         "rules": ["MATCH,AUTO"]
     }
+    return clash_config
 
-    with open("clash.yaml", "w", encoding="utf-8") as f:
-        yaml.safe_dump(clash, f, sort_keys=False)
+def build_singbox_json(nodes):
+    outbounds = []
+    for n in nodes:
+        outbound = {
+            "type": n["type"],
+            "tag": n["name"],
+            "server": n["server"],
+            "port": n["port"],
+            "uuid": n["uuid"],
+            "tls": n["tls"],
+            "network": n.get("network", "tcp"),
+            "flow": n.get("flow", None),
+            "ws-opts": n.get("ws-opts", None)
+        }
+        outbounds.append(outbound)
+    return {"outbounds": outbounds}
 
-    # Sing-box
-    singbox_config = {"outbounds": proxies, "inbounds": []}
-    with open("singbox.json", "w", encoding="utf-8") as f:
+def main():
+    raw_nodes = fetch_nodes(CONFIG_URL)
+    parsed_nodes = []
+    for url in raw_nodes:
+        if url.startswith("vless://"):
+            parsed_nodes.append(parse_vless(url))
+    sorted_nodes = sort_nodes(parsed_nodes)
+    clash_config = build_clash_yaml(sorted_nodes)
+    with open("clash.yaml", "w") as f:
+        yaml.dump(clash_config, f, allow_unicode=True)
+    singbox_config = build_singbox_json(sorted_nodes)
+    with open("singbox.json", "w") as f:
         json.dump(singbox_config, f, indent=2)
-
-    print("Clash & Sing-box configs generated successfully!")
+    print("✅ Clash & Sing-box configs updated successfully.")
 
 if __name__ == "__main__":
     main()
-
