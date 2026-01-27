@@ -10,39 +10,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4 # آپدیت به ورژن 4
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.14'
+      - name: Set up Python
+        uses: actions/setup-python@v5 # آپدیت به ورژن 5
+        with:
+          python-version: '3.12' # استفاده از نسخه پایدار 3.12
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pyyaml requests
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests
 
-    - name: Ensure updater script exists
-      run: |
-        if [ ! -f update_clash_singbox.py ]; then
-          echo 'Creating placeholder update_clash_singbox.py'
-          cat << 'EOF' > update_clash_singbox.py
-import yaml, json
+      - name: Ensure updater script exists
+        run: |
+          if [ ! -f update_clash_singbox.py ]; then
+            echo 'Creating placeholder update_clash_singbox.py'
+            echo "import yaml, json
 # Minimal placeholder script to ensure files are generated
 with open('clash.yaml','w') as f: f.write('proxies: []\n')
 with open('singbox.json','w') as f: json.dump({'outbounds': []}, f)
-EOF
-        fi
+" > update_clash_singbox.py
+          fi
 
-    - name: Run Clash/Sing-box updater
-      run: |
-        python update_clash_singbox.py
+      - name: Run Clash/Sing-box updater
+        run: python update_clash_singbox.py
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "actions@github.com"
-        git add clash.yaml singbox.json
-        git commit -m "Auto update Clash & Sing-box configs" || echo "No changes to commit"
-        git push
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add clash.yaml singbox.json
+          # بررسی می‌کنیم که آیا تغییری وجود دارد یا خیر تا الکی ارور ندهد
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update Clash & Sing-box configs" && git push)
