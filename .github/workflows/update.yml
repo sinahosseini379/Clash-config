@@ -2,7 +2,7 @@ name: Auto Update Clash & Sing-box
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # هر روز ساعت 00:00 UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.14'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
@@ -26,16 +26,9 @@ jobs:
       - name: Ensure updater script exists
         run: |
           if [ ! -f update_clash_singbox.py ]; then
-            echo 'Creating placeholder update_clash_singbox.py'
-            cat > update_clash_singbox.py << 'PYTHON_EOF'
-import yaml, json
-# Minimal placeholder script to ensure files are generated
-with open('clash.yaml', 'w') as f:
-    f.write('proxies: []\n')
-
-with open('singbox.json', 'w') as f:
-    json.dump({'outbounds': []}, f)
-PYTHON_EOF
+            echo "import yaml, json" > update_clash_singbox.py
+            echo "with open('clash.yaml','w') as f: f.write('proxies: []')" >> update_clash_singbox.py
+            echo "with open('singbox.json','w') as f: json.dump({'outbounds': []}, f)" >> update_clash_singbox.py
           fi
 
       - name: Run Clash/Sing-box updater
@@ -46,5 +39,4 @@ PYTHON_EOF
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add clash.yaml singbox.json
-          git commit -m "Auto update Clash & Sing-box configs" || echo "No changes to commit"
-          git push
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update configs" && git push)
