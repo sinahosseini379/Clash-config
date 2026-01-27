@@ -26,13 +26,30 @@ jobs:
       - name: Ensure updater script exists
         run: |
           if [ ! -f update_clash_singbox.py ]; then
-            echo "import yaml, json" > update_clash_singbox.py
-            echo "# Minimal placeholder script to ensure files are generated" >> update_clash_singbox.py
-            echo "with open('clash.yaml', 'w') as f:" >> update_clash_singbox.py
-            echo "    f.write('proxies: []\\n')" >> update_clash_singbox.py
-            echo "" >> update_clash_singbox.py
-            echo "with open('singbox.json', 'w') as f:" >> update_clash_singbox.py
-            echo "    json.dump({'outbounds': []}, f)" >> update_clash_singbox.py
+            echo 'Creating placeholder update_clash_singbox.py'
+            cat > update_clash_singbox.py << 'PYTHON_EOF'
+import yaml
+import json
+
+# Minimal placeholder script to ensure files are generated
+
+# Clash config
+clash_config = {
+    'proxies': [],
+    'proxy-groups': [],
+    'rules': []
+}
+with open('clash.yaml', 'w') as f:
+    yaml.dump(clash_config, f, default_flow_style=False)
+
+# Sing-box config
+singbox_config = {
+    'outbounds': [],
+    'inbounds': []
+}
+with open('singbox.json', 'w') as f:
+    json.dump(singbox_config, f, indent=2)
+PYTHON_EOF
           fi
 
       - name: Run Clash/Sing-box updater
