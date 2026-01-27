@@ -1,42 +1,61 @@
 import requests
 import yaml
-import base64
 import json
+import re
+import base64
 from urllib.parse import urlparse, parse_qs
-import concurrent.futures
-import time
-import socket
 
+# -------------------------------
+# تنظیمات اولیه
+# -------------------------------
 RAW_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt"
-PRIORITY_LOCATIONS = ["US", "DE", "FI"]
-TIMEOUT = 3  # ثانیه برای تست نود
 
+# ترتیب اولویت لوکیشن‌ها (می‌تونی تغییر بدی)
+PRIORITY_ORDER = ["US", "DE", "FI", "RU", "AT", "FR", "JP"]
 
+# -------------------------------
+# توابع استخراج لینک‌ها
+# -------------------------------
+def extract_links(text):
+    """
+    پیدا کردن تمام لینک‌های VLESS و Vmess در متن
+    """
+    pattern = r"(vless://[^\s]+|vmess://[A-Za-z0-9+/=]+)"
+    return re.findall(pattern, text)
+
+# -------------------------------
+# توابع parse
+# -------------------------------
 def parse_vmess(link):
-    data = link.replace("vmess://", "")
-    decoded = base64.b64decode(data + "===").decode()
-    obj = json.loads(decoded)
+    """
+    تبدیل لینک vmess:// به دیکشنری مناسب Clash/Sing-box
+    """
+    b64 = link.replace("vmess://", "")
+    # padding base64
+    b64 += "=" * ((4 - len(b64) % 4) % 4)
+    decoded = json.loads(base64.b64decode(b64).decode())
     return {
-        "name": obj.get("ps", "vmess"),
+        "name": decoded.get("ps", "vmess"),
         "type": "vmess",
-        "server": obj.get("add"),
-        "port": int(obj.get("port")),
-        "uuid": obj.get("id"),
-        "alterId": int(obj.get("aid", 0)),
+        "server": decoded.get("add"),
+        "port": int(decoded.get("port", 0)),
+        "uuid": decoded.get("id", ""),
         "cipher": "auto",
-        "tls": obj.get("tls") == "tls",
-        "network": obj.get("net"),
+        "tls": decoded.get("tls") == "tls",
+        "network": decoded.get("net", "tcp"),
         "ws-opts": {
-            "path": obj.get("path", "/"),
-            "headers": {"Host": obj.get("host", "")}
-        } if obj.get("net") == "ws" else None,
-        "location": obj.get("country", "unknown"),
-        "tunnel_mode": True
+            "path": decoded.get("path", "/"),
+            "headers": {"Host": decoded.get("host", "")}
+        } if decoded.get("net") == "ws" else None
     }
 
-
 def parse_vless(link):
-    u = urlparse(link.replace("vless://", "http://"))
+    """
+    تبدیل لینک vless:// به دیکشنری مناسب Clash/Sing-box
+    """
+    # urlparse نیاز به scheme داره
+    link_fixed = link.replace("vless://", "http://")
+    u = urlparse(link_fixed)
     q = parse_qs(u.query)
     return {
         "name": u.hostname,
@@ -47,63 +66,49 @@ def parse_vless(link):
         "tls": q.get("security", [""])[0] == "tls",
         "flow": q.get("flow", [None])[0],
         "network": q.get("type", ["tcp"])[0],
-        "servername": q.get("sni", [None])[0],
-        "location": q.get("loc", ["unknown"])[0],
-        "tunnel_mode": True
+        "servername": q.get("sni", [None])[0]
     }
 
+# -------------------------------
+# مرتب‌سازی بر اساس لوکیشن
+# -------------------------------
+def sort_by_location(proxies):
+    def get_priority(proxy):
+        for i, code in enumerate(PRIORITY_ORDER):
+            if code.lower() in proxy.get("server", "").lower():
+                return i
+        return len(PRIORITY_ORDER)
+    return sorted(proxies, key=get_priority)
 
-def test_latency(node):
-    try:
-        start = time.time()
-        s = socket.create_connection((node['server'], node['port']), timeout=TIMEOUT)
-        s.close()
-        return time.time() - start
-    except Exception:
-        return TIMEOUT + 1  # تایم‌اوت میره آخر لیست
-
-
-def rank_nodes(nodes):
-    # تست latency همزمان
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        results = list(executor.map(test_latency, nodes))
-
-    for node, latency in zip(nodes, results):
-        node['latency'] = latency
-
-    # مرتب سازی: ابتدا بر اساس لوکیشن، سپس latency
-    def key_fn(n):
-        loc_index = PRIORITY_LOCATIONS.index(n['location']) if n['location'] in PRIORITY_LOCATIONS else len(PRIORITY_LOCATIONS)
-        return (loc_index, n['latency'])
-
-    nodes.sort(key=key_fn)
-    return nodes
-
-
+# -------------------------------
+# main
+# -------------------------------
 def main():
-    raw = requests.get(RAW_URL, timeout=30).text
-    lines = [l.strip() for l in raw.splitlines() if l.strip()]
+    print("Downloading subscription...")
+    text = requests.get(RAW_URL, timeout=15).text
+    links = extract_links(text)
 
+    print(f"Found {len(links)} links")
     proxies = []
 
-    for l in lines:
+    for link in links:
         try:
-            if l.startswith("vmess://"):
-                proxies.append(parse_vmess(l))
-            elif l.startswith("vless://"):
-                proxies.append(parse_vless(l))
+            if link.startswith("vmess://"):
+                proxies.append(parse_vmess(link))
+            elif link.startswith("vless://"):
+                proxies.append(parse_vless(link))
         except Exception as e:
-            print("Parse error:", e)
+            print(f"Error parsing link: {link} -> {e}")
 
-    proxies = rank_nodes(proxies)
+    # مرتب‌سازی نودها بر اساس لوکیشن
+    proxies = sort_by_location(proxies)
 
-    proxy_names = [p["name"] for p in proxies]
-
+    # ساخت YAML خروجی Clash
     clash = {
-        "mixed-port": 7890,
         "allow-lan": True,
-        "mode": "rule",
         "log-level": "info",
+        "mode": "rule",
+        "mixed-port": 7890,
         "proxies": proxies,
         "proxy-groups": [
             {
@@ -111,34 +116,21 @@ def main():
                 "type": "url-test",
                 "url": "http://www.gstatic.com/generate_204",
                 "interval": 300,
-                "proxies": proxy_names
-            },
-            {
-                "name": "BACKUP",
-                "type": "fallback",
-                "url": "http://www.gstatic.com/generate_204",
-                "interval": 300,
-                "proxies": proxy_names
+                "proxies": [p["name"] for p in proxies]
             }
         ],
-        "rules": [
-            "DOMAIN-SUFFIX,google.com,AUTO",
-            "DOMAIN-SUFFIX,youtube.com,AUTO",
-            "MATCH,BACKUP"
-        ]
-    }
-
-    singbox_config = {
-        "inbounds": [],
-        "outbounds": proxies
+        "rules": ["MATCH,AUTO"]
     }
 
     with open("clash.yaml", "w", encoding="utf-8") as f:
-        yaml.dump(clash, f, allow_unicode=True)
+        yaml.safe_dump(clash, f, sort_keys=False)
 
+    # ساخت خروجی sing-box
+    singbox_config = {"outbounds": proxies, "inbounds": []}
     with open("singbox.json", "w", encoding="utf-8") as f:
-        json.dump(singbox_config, f, ensure_ascii=False, indent=2)
+        json.dump(singbox_config, f, indent=2)
 
+    print("Clash & Sing-box configs generated successfully!")
 
 if __name__ == "__main__":
     main()
