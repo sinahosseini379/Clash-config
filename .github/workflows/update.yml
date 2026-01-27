@@ -26,9 +26,8 @@ jobs:
       - name: Ensure updater script exists
         run: |
           if [ ! -f update_clash_singbox.py ]; then
-            curl -o update_clash_singbox.py https://raw.githubusercontent.com/sinaHoseini-git/v2ray-clash-singbox/main/update_clash_singbox.py
-            chmod +x update_clash_singbox.py
-          fi
+            echo "update_clash_singbox.py not found!"
+            exit 1
 
       - name: Run Clash/Sing-box updater
         run: python update_clash_singbox.py
@@ -37,7 +36,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          [ -f clash.yaml ] && git add clash.yaml || echo "clash.yaml not found"
-          [ -f singbox.json ] && git add singbox.json || echo "singbox.json not found"
+          git add clash.yaml singbox.json
           git commit -m "Auto update Clash & Sing-box configs" || echo "No changes to commit"
           git push || echo "Nothing to push"
