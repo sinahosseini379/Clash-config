@@ -27,11 +27,15 @@ jobs:
         run: |
           if [ ! -f update_clash_singbox.py ]; then
             echo 'Creating placeholder update_clash_singbox.py'
-            echo "import yaml, json
+            cat > update_clash_singbox.py << 'PYTHON_EOF'
+import yaml, json
 # Minimal placeholder script to ensure files are generated
-with open('clash.yaml','w') as f: f.write('proxies: []\n')
-with open('singbox.json','w') as f: json.dump({'outbounds': []}, f)
-" > update_clash_singbox.py
+with open('clash.yaml', 'w') as f:
+    f.write('proxies: []\n')
+
+with open('singbox.json', 'w') as f:
+    json.dump({'outbounds': []}, f)
+PYTHON_EOF
           fi
 
       - name: Run Clash/Sing-box updater
