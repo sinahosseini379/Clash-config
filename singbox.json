@@ -1,31 +1,31 @@
 {
   "outbounds": [
     {
-      "name": "%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20Nova%20Igua%C3%A7u%20%28Recreio%20Pa%C3%A7o%20da%20Marambaia%29%20%5BBL%5D",
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
       "type": "vless",
-      "server": "188.241.241.33",
-      "port": 2053,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "H5.FASTSPEEDS.IR",
+      "port": 2087,
+      "uuid": "c24f90b9-c8e9-404d-94bf-879c52401190",
+      "tls": true,
+      "flow": null,
+      "network": "xhttp",
+      "servername": "H5.FASTSPEEDS.IR"
+    },
+    {
+      "name": "%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20Mogi%20das%20Cruzes%20%5BBL%5D",
+      "type": "vless",
+      "server": "198.62.62.127",
+      "port": 443,
+      "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "188.241.241.33"
+      "servername": "198.62.62.127"
     },
     {
       "name": "%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20Nova%20Igua%C3%A7u%20%28Recreio%20Pa%C3%A7o%20da%20Marambaia%29%20%5BBL%5D",
       "type": "vless",
-      "server": "194.28.226.167",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20Nova%20Igua%C3%A7u%20%28Recreio%20Pa%C3%A7o%20da%20Marambaia%29%20%5BBL%5D",
-      "type": "vless",
-      "server": "46.203.233.242",
+      "server": "185.184.123.93",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -36,7 +36,7 @@
     {
       "name": "%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20Nova%20Igua%C3%A7u%20%28Recreio%20Pa%C3%A7o%20da%20Marambaia%29%20%5BBL%5D",
       "type": "vless",
-      "server": "5.253.188.151",
+      "server": "77.239.104.174",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -45,31 +45,9 @@
       "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%5BBL%5D",
+      "name": "%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20Nova%20Igua%C3%A7u%20%28Recreio%20Pa%C3%A7o%20da%20Marambaia%29%20%5BBL%5D",
       "type": "vless",
-      "server": "94.154.161.30",
-      "port": 443,
-      "uuid": "049e7740-fa5d-40b6-b37e-2b8a7d86cbc8",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "94.154.161.30"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%5BBL%5D",
-      "type": "vless",
-      "server": "130.250.137.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%5BBL%5D",
-      "type": "vless",
-      "server": "135.84.64.90",
+      "server": "91.149.222.113",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -80,7 +58,7 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%5BBL%5D",
       "type": "vless",
-      "server": "143.20.213.43",
+      "server": "188.253.19.222",
       "port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -91,18 +69,7 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%5BBL%5D",
       "type": "vless",
-      "server": "193.37.70.3",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%5BBL%5D",
-      "type": "vless",
-      "server": "212.6.44.203",
+      "server": "212.193.4.209",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -133,20 +100,163 @@
       "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%5BBL%5D",
       "type": "vless",
-      "server": "143.20.213.235",
+      "server": "94.237.114.211",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%28Ville-Marie%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "141.11.202.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.jpmj.dev"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%28Ville-Marie%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "143.20.213.86",
       "port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "143.20.213.235"
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%28Ville-Marie%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "185.242.106.162",
+      "port": 2053,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%28Ville-Marie%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "195.135.254.201",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%28Ville-Marie%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "5.253.188.151",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "5.253.188.151"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%28Ville-Marie%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "62.192.174.175",
+      "port": 2053,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
     },
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "143.20.236.24",
+      "server": "afrcloud22.mmv.kr",
+      "port": 443,
+      "uuid": "24883bba-116b-409d-8e98-6a5d1e8fec89",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "afrcloud22.mmv.kr"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "afrcloud22.mmv.kr",
+      "port": 443,
+      "uuid": "3de0146f-8fea-46c1-8858-faaa8b80083f",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "afrcloud22.mmv.kr"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "afrcloud22.mmv.kr",
+      "port": 443,
+      "uuid": "427f4ef5-d4bb-41ec-8963-7e37361c28a5",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "afrcloud22.mmv.kr"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "109.237.97.138",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "135.84.72.44",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "135.84.73.69",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "143.20.213.128",
+      "port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "143.20.213.40",
       "port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -168,18 +278,7 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "160.153.1.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "160.153.1.238"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "160.153.1.49",
+      "server": "160.153.1.34",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -190,7 +289,18 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "166.62.114.250",
+      "server": "178.250.187.3",
+      "port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "185.16.110.1",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -201,8 +311,8 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "185.170.166.138",
-      "port": 2096,
+      "server": "185.177.92.210",
+      "port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
@@ -212,19 +322,8 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "185.18.250.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.jpmj.dev"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "185.184.123.93",
-      "port": 443,
+      "server": "188.241.241.33",
+      "port": 2053,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
@@ -245,6 +344,17 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
+      "server": "188.42.89.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
       "server": "194.147.149.54",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -256,8 +366,19 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "194.9.6.32",
-      "port": 48484,
+      "server": "194.59.5.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "194.59.5.138"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "195.123.212.216",
+      "port": 2053,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
@@ -267,18 +388,29 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "195.245.239.195",
+      "server": "195.135.253.29",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "195.245.239.195"
+      "servername": "sni.111000.indevs.in"
     },
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "209.102.207.162",
+      "server": "195.135.255.177",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "20.33.23.66",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -300,62 +432,18 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "216.173.69.143",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "216.173.69.143",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "25.129.199.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "25.129.199.238"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
       "server": "45.12.30.138",
       "port": 2096,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "sni.111000.indevs.in"
+      "servername": "45.12.30.138"
     },
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "45.131.6.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.jpmj.dev"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "45.43.79.121",
+      "server": "46.32.184.211",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -366,51 +454,7 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "45.85.119.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.jpmj.dev"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "5.253.188.151",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "5.253.188.151"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "50.62.195.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.jpmj.dev"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "50.62.195.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.jpmj.dev"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "66.151.41.45",
+      "server": "46.32.187.62",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -421,79 +465,57 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "77.110.118.166",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "80.66.85.115",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "87.229.97.198",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "91.197.0.117",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "92.246.136.173",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "92.42.96.223",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
-      "type": "vless",
-      "server": "92.53.191.238",
+      "server": "5.10.214.238",
       "port": 2096,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
       "network": "ws",
       "servername": "sni.jpmj.dev"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "5.10.246.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.jpmj.dev"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "5.39.217.217",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "89.169.13.207",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "89.169.13.207"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
+      "type": "vless",
+      "server": "94.158.218.48",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
     },
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
@@ -509,7 +531,62 @@
     {
       "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%5BBL%5D",
       "type": "vless",
-      "server": "98.70.26.236",
+      "server": "94.247.142.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.jpmj.dev"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%28Old%20Toronto%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "143.20.213.235",
+      "port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "143.20.213.235"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%28Old%20Toronto%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "166.62.114.250",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%28Old%20Toronto%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "176.96.136.176",
+      "port": 6593,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%28Old%20Toronto%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "185.7.240.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.jpmj.dev"
+    },
+    {
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%28Old%20Toronto%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "94.158.219.126",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -520,13 +597,35 @@
     {
       "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%5BBL%5D",
       "type": "vless",
-      "server": "email.swiftraci.org",
+      "server": "45.43.76.103",
       "port": 443,
-      "uuid": "7eb4a87d-e22f-4eb3-a793-ee3d6200fdc6",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "email.swiftraci.org"
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%5BBL%5D",
+      "type": "vless",
+      "server": "45.43.79.121",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%5BBL%5D",
+      "type": "vless",
+      "server": "45.43.79.121",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
     },
     {
       "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%5BBL%5D",
@@ -540,6 +639,72 @@
       "servername": "8.6.112.0"
     },
     {
+      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%5BBL%5D",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "port": 443,
+      "uuid": "8d5ebe3f-d0c5-45f2-9dde-21ee29fc0ee6",
+      "tls": true,
+      "flow": null,
+      "network": "xhttp",
+      "servername": "chatgpt.com"
+    },
+    {
+      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%5BBL%5D",
+      "type": "vless",
+      "server": "194.76.18.13",
+      "port": 2083,
+      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "hajfron.amirconfigpaanelllll.com"
+    },
+    {
+      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Vantaa%20%5BBL%5D",
+      "type": "vless",
+      "server": "195.135.254.64",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Vantaa%20%5BBL%5D",
+      "type": "vless",
+      "server": "216.173.69.143",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Vantaa%20%5BBL%5D",
+      "type": "vless",
+      "server": "81.85.72.197",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Istres%20%5BBL%5D",
+      "type": "vless",
+      "server": "212.113.116.50",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
       "name": "%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%5BBL%5D",
       "type": "vless",
       "server": "72.61.161.219",
@@ -573,31 +738,9 @@
       "servername": "france-paris.hostinger.kcartik-vps.com"
     },
     {
-      "name": "%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%5BBL%5D",
+      "name": "%F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Tbilisi%20%5BBL%5D",
       "type": "vless",
-      "server": "france-paris.hostinger.kcartik-vps.com",
-      "port": 80,
-      "uuid": "b5920b52-504c-4835-978c-fbc4110d5840",
-      "tls": false,
-      "flow": null,
-      "network": "ws",
-      "servername": "france-paris.hostinger.kcartik-vps.com"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
-      "type": "vless",
-      "server": "143.20.213.128",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
-      "type": "vless",
-      "server": "188.241.241.28",
+      "server": "185.82.126.184",
       "port": 2053,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -606,7 +749,7 @@
       "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
+      "name": "%F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Tbilisi%20%5BBL%5D",
       "type": "vless",
       "server": "194.9.6.32",
       "port": 48484,
@@ -617,21 +760,87 @@
       "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Cologne%20%5BBL%5D",
       "type": "vless",
-      "server": "37.1.194.153",
+      "server": "143.20.213.32",
       "port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "37.1.194.153"
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Cologne%20%5BBL%5D",
+      "type": "vless",
+      "server": "202.61.200.220",
+      "port": 8080,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Cologne%20%5BBL%5D",
+      "type": "vless",
+      "server": "217.154.213.217",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Cologne%20%5BBL%5D",
+      "type": "vless",
+      "server": "87.251.87.157",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
       "type": "vless",
-      "server": "77.239.104.174",
-      "port": 443,
+      "server": "143.20.213.128",
+      "port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "143.20.213.128"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
+      "type": "vless",
+      "server": "143.20.213.235",
+      "port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
+      "type": "vless",
+      "server": "5.104.75.10",
+      "port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
+      "type": "vless",
+      "server": "77.110.118.166",
+      "port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
@@ -647,29 +856,73 @@
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "92.42.96.223"
+      "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Estenfeld%20%28M%C3%BChlhausen%29%20%5BBL%5D",
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Dreieich%20%5BBL%5D",
       "type": "vless",
-      "server": "imgur.com",
-      "port": 80,
-      "uuid": "d74069d8-219a-4608-9447-63bce0e831df",
-      "tls": false,
+      "server": "94.159.97.98",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "qormesabzi-dari-aqa.global.ssl.fastly.net"
+      "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%5BBL%5D",
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%5BBL%5D",
       "type": "vless",
-      "server": "SpEeDtEsT.NeT",
-      "port": 80,
-      "uuid": "cd952a29-19fe-459e-b077-d730141467db",
+      "server": "89.23.123.15",
+      "port": 4443,
+      "uuid": "04dd5782-5e3b-43b4-b36c-e2331574ef0c",
+      "tls": false,
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "servername": "89.23.123.15"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%5BBL%5D",
+      "type": "vless",
+      "server": "94.141.161.204",
+      "port": 4443,
+      "uuid": "04dd5782-5e3b-43b4-b36c-e2331574ef0c",
+      "tls": false,
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "servername": "94.141.161.204"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%5BBL%5D",
+      "type": "vless",
+      "server": "89.125.39.127",
+      "port": 32354,
+      "uuid": "204fae2e-ab13-4ba8-a59b-ec37bbcf0e68",
+      "tls": false,
+      "flow": null,
+      "network": "tcp",
+      "servername": "89.125.39.127"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%5BBL%5D",
+      "type": "vless",
+      "server": "89.169.55.246",
+      "port": 443,
+      "uuid": "4578bd05-c0bf-42e1-b228-22db0e64c947",
+      "tls": false,
+      "flow": null,
+      "network": "tcp",
+      "servername": "89.169.55.246"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%5BBL%5D",
+      "type": "vless",
+      "server": "213.21.229.3",
+      "port": 2053,
+      "uuid": "7fc7bfe4-59f3-4ea8-adde-5060a47a77b5",
       "tls": false,
       "flow": null,
       "network": "xhttp",
-      "servername": "fasthetz.global.ssl.fastly.net"
+      "servername": "213.21.229.3"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%5BBL%5D",
@@ -685,156 +938,57 @@
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
       "type": "vless",
-      "server": "Ns4.iran-mehrbu.ir",
+      "server": "chatgpt.com",
+      "port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "ca.adobe-connect.top"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "178.162.240.165",
       "port": 443,
-      "uuid": "2637679c-e2fe-45a2-9962-e2ddf8469c29",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "mostrabane.global.ssl.fastly.net"
+      "uuid": "a60e3576-21fa-4c50-bc09-7cc5f60ac1d3",
+      "tls": false,
+      "flow": "xtls-rprx-vision",
+      "network": "raw",
+      "servername": "178.162.240.165"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
       "type": "vless",
-      "server": "194.76.18.23",
-      "port": 2053,
-      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "ir6.hnbyme.online"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
-      "type": "vless",
-      "server": "194.76.18.25",
-      "port": 2053,
-      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "ir6.hnbyme.online"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
-      "type": "vless",
-      "server": "198.202.24.1",
-      "port": 2053,
-      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "ir6.hnbyme.online"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
-      "type": "vless",
-      "server": "198.62.62.3",
-      "port": 2053,
-      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "ir6.hnbyme.online"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
-      "type": "vless",
-      "server": "45.67.215.233",
-      "port": 2053,
-      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "ir6.hnbyme.online"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
-      "type": "vless",
-      "server": "8.6.112.0",
-      "port": 2053,
-      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "ir6.hnbyme.online"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
-      "type": "vless",
-      "server": "omrimisihdizamin.global.ssl.fastly.net",
+      "server": "150.241.90.13",
       "port": 443,
-      "uuid": "e2a78d9c-6636-4daa-8e18-d7c74bf5ec9a",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "omrimisihdizamin.global.ssl.fastly.net"
+      "uuid": "ad961404-6249-4a11-9577-d1e81f6b198f",
+      "tls": false,
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "servername": "150.241.90.13"
     },
     {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%5BBL%5D",
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freilassing%20%28Hofham%29%20%5BBL%5D",
       "type": "vless",
-      "server": "82.22.174.203",
-      "port": 35982,
-      "uuid": "f7e23839-7e62-4e38-adfb-e33ec29e6475",
+      "server": "partners.dissertationhelpspecialist.com",
+      "port": 443,
+      "uuid": "251dafad-fae3-4ba2-b3cf-ef5eab796851",
       "tls": false,
       "flow": null,
-      "network": "tcp",
-      "servername": "/?BIA_Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY"
+      "network": "grpc",
+      "servername": "partners.dissertationhelpspecialist.com"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
       "type": "vless",
-      "server": "141.11.202.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.jpmj.dev"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
-      "type": "vless",
-      "server": "185.156.19.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.jpmj.dev"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
-      "type": "vless",
-      "server": "188.253.21.12",
-      "port": 2053,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
-      "type": "vless",
-      "server": "188.253.23.30",
+      "server": "afrcloud22.mmv.kr",
       "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "uuid": "1e3355dc-bfa1-4a03-8a50-d98e12abd0cb",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
-      "type": "vless",
-      "server": "188.253.23.98",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
+      "servername": "afrcloud22.mmv.kr"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
@@ -850,8 +1004,8 @@
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
       "type": "vless",
-      "server": "46.32.185.253",
-      "port": 8443,
+      "server": "195.135.254.201",
+      "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
@@ -861,7 +1015,7 @@
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
       "type": "vless",
-      "server": "46.32.187.138",
+      "server": "195.135.255.74",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -881,125 +1035,81 @@
       "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
       "type": "vless",
-      "server": "91.197.0.100",
+      "server": "liad.maf-tahas.ir",
       "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "uuid": "30689d42-d2f2-4495-a49b-dd0fdba10fb8",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
-      "type": "vless",
-      "server": "91.197.0.63",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Freising%20%5BBL%5D",
-      "type": "vless",
-      "server": "94.158.219.198",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
+      "servername": "liad.maf-tahas.ir"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
       "type": "vless",
-      "server": "ip1-fast.tyryqyserver.ir",
+      "server": "daltoon.best-cloud.ir",
+      "port": 8443,
+      "uuid": "442ed0ac-c945-41ee-8bb5-8ee69ef50456",
+      "tls": true,
+      "flow": null,
+      "network": "xhttp",
+      "servername": "speed.daltoon-server.ir"
+    },
+    {
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
+      "type": "vless",
+      "server": "151.101.194.219",
       "port": 80,
-      "uuid": "6da7b024-d51a-4b7f-a59f-e4edf0a7d85d",
+      "uuid": "a26bbed7-a286-4840-84bc-dc102c526777",
       "tls": false,
       "flow": null,
-      "network": "ws",
-      "servername": "norbertde1.global.ssl.fastly.net"
+      "network": "xhttp",
+      "servername": "iran.boltboost.gg"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
       "type": "vless",
-      "server": "ip2-fast.tyryqyserver.ir",
-      "port": 80,
-      "uuid": "6da7b024-d51a-4b7f-a59f-e4edf0a7d85d",
-      "tls": false,
-      "flow": null,
-      "network": "ws",
-      "servername": "norbertde1.global.ssl.fastly.net"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
-      "type": "vless",
-      "server": "192.200.160.228",
-      "port": 2083,
-      "uuid": "9f846e5c-56f9-4670-8be2-5b00d2a107c0",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "de.elterido.ir"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
-      "type": "vless",
-      "server": "192.200.160.228",
-      "port": 2083,
-      "uuid": "9f846e5c-56f9-4670-8be2-5b00d2a107c0",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "de.elterido.ir"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
-      "type": "vless",
-      "server": "sv22.v2bit.com",
-      "port": 2087,
-      "uuid": "cd39b47e-003e-4b5c-a386-1f22b318e299",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sadjkg32jhgjhasd.chgfa.site"
-    },
-    {
-      "name": "%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%5BBL%5D",
-      "type": "vless",
-      "server": "216.173.69.143",
+      "server": "198.62.62.127",
       "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "sni.111000.indevs.in"
+      "servername": "apii.onlineshoppingez.ir"
     },
     {
-      "name": "%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%5BBL%5D",
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%5BBL%5D",
       "type": "vless",
-      "server": "45.43.79.121",
+      "server": "chatgpt.com",
       "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "sni.111000.indevs.in"
+      "servername": "apii.onlineshoppingez.ir"
     },
     {
-      "name": "%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%5BBL%5D",
+      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Saarbr%C3%BCcken%20%28Mitte%29%20%5BBL%5D",
       "type": "vless",
-      "server": "5.34.214.83",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "94.140.0.0",
+      "port": 8443,
+      "uuid": "37aa544d-c729-4dd8-bebf-376311d3c2cf",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "sni.111000.indevs.in"
+      "servername": "fr1.mamady.ir"
+    },
+    {
+      "name": "%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Shibuya%20City%20%5BBL%5D",
+      "type": "vless",
+      "server": "69.84.182.13",
+      "port": 443,
+      "uuid": "da793913-33ef-45c0-806d-f23644c555f2",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "jp1-jp1.aiopen.sbs"
     },
     {
       "name": "%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%5BBL%5D",
@@ -1010,12 +1120,12 @@
       "tls": false,
       "flow": null,
       "network": "tcp",
-      "servername": "45.43.79.73"
+      "servername": "speedtest.net"
     },
     {
       "name": "%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Lentvaris%20%5BBL%5D",
       "type": "vless",
-      "server": "195.135.253.29",
+      "server": "188.253.23.98",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -1026,7 +1136,7 @@
     {
       "name": "%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Lentvaris%20%5BBL%5D",
       "type": "vless",
-      "server": "195.135.254.201",
+      "server": "37.128.207.194",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -1037,18 +1147,7 @@
     {
       "name": "%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Lentvaris%20%5BBL%5D",
       "type": "vless",
-      "server": "195.135.254.201",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Lentvaris%20%5BBL%5D",
-      "type": "vless",
-      "server": "212.6.44.200",
+      "server": "45.43.77.239",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -1059,8 +1158,8 @@
     {
       "name": "%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%5BBL%5D",
       "type": "vless",
-      "server": "188.253.18.111",
-      "port": 443,
+      "server": "185.242.106.162",
+      "port": 2053,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
@@ -1070,8 +1169,8 @@
     {
       "name": "%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%5BBL%5D",
       "type": "vless",
-      "server": "188.253.19.164",
-      "port": 443,
+      "server": "46.32.185.253",
+      "port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
@@ -1079,26 +1178,48 @@
       "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%5BBL%5D",
+      "name": "%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%5BBL%5D",
       "type": "vless",
-      "server": "94.158.219.126",
+      "server": "85.239.49.125",
       "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%5BBL%5D",
-      "type": "vless",
-      "server": "pamelo.axinode.sbs",
-      "port": 443,
-      "uuid": "4aff5de5-83dc-43c9-a33e-10e6fdb90ed2",
+      "uuid": "40626018-4cad-4f62-a7bf-baaa892fe383",
       "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "pamelo.axinode.sbs"
+      "flow": null,
+      "network": "grpc",
+      "servername": "85.239.49.125"
+    },
+    {
+      "name": "%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%5BBL%5D",
+      "type": "vless",
+      "server": "85.239.49.125",
+      "port": 443,
+      "uuid": "40626018-4cad-4f62-a7bf-baaa892fe383",
+      "tls": false,
+      "flow": null,
+      "network": "grpc",
+      "servername": "85.239.49.125"
+    },
+    {
+      "name": "%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%5BBL%5D",
+      "type": "vless",
+      "server": "85.239.49.125",
+      "port": 7443,
+      "uuid": "40626018-4cad-4f62-a7bf-baaa892fe383",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "rockdash113.argonaft2.online"
+    },
+    {
+      "name": "%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%5BBL%5D",
+      "type": "vless",
+      "server": "85.239.49.125",
+      "port": 8443,
+      "uuid": "40626018-4cad-4f62-a7bf-baaa892fe383",
+      "tls": false,
+      "flow": null,
+      "network": "xhttp",
+      "servername": "85.239.49.125"
     },
     {
       "name": "%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%5BBL%5D",
@@ -1112,6 +1233,28 @@
       "servername": "www.muhasv.online"
     },
     {
+      "name": "%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Jurong%20East%29%20%5BBL%5D",
+      "type": "vless",
+      "server": "afrcloud22.mmv.kr",
+      "port": 443,
+      "uuid": "1c69f891-7bd3-4b26-9f29-ee4a65855a46",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "afrcloud22.mmv.kr"
+    },
+    {
+      "name": "%F0%9F%87%B0%F0%9F%87%B7%20South%20Korea%2C%20Cheonan-si%20%5BBL%5D",
+      "type": "vless",
+      "server": "85.239.49.125",
+      "port": 8443,
+      "uuid": "40626018-4cad-4f62-a7bf-baaa892fe383",
+      "tls": false,
+      "flow": null,
+      "network": "xhttp",
+      "servername": "85.239.49.125"
+    },
+    {
       "name": "%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Steninge%20%5BBL%5D",
       "type": "vless",
       "server": "185.82.126.239",
@@ -1123,64 +1266,64 @@
       "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Steninge%20%5BBL%5D",
-      "type": "vless",
-      "server": "185.82.127.156",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
       "type": "vless",
-      "server": "63.141.128.226",
+      "server": "2.58.104.32",
       "port": 443,
       "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092",
       "tls": true,
       "flow": null,
       "network": "grpc",
-      "servername": "63.141.128.226"
+      "servername": "2.58.104.32"
     },
     {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
       "type": "vless",
-      "server": "ip1.iranvatanam.com",
+      "server": "63.141.128.110",
       "port": 443,
-      "uuid": "30287d57-2684-44e8-8a35-3e3f940d9738",
+      "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092",
       "tls": true,
       "flow": null,
-      "network": "xhttp",
-      "servername": "ip1.iranvatanam.com"
+      "network": "grpc",
+      "servername": "63.141.128.110"
     },
     {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
       "type": "vless",
-      "server": "193.178.226.248",
+      "server": "63.141.128.42",
       "port": 443,
-      "uuid": "319cf3c5-0b6a-4118-88cd-c2f814d6d26f",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "193.178.226.248"
+      "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092",
+      "tls": true,
+      "flow": null,
+      "network": "grpc",
+      "servername": "63.141.128.42"
     },
     {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
       "type": "vless",
-      "server": "nl01-vlr01.tcp-reset-club.net",
-      "port": 443,
-      "uuid": "6178d1c9-884d-4390-98b0-801aa3ad3ad8",
+      "server": "77.73.132.193",
+      "port": 8080,
+      "uuid": "61111a66-0485-44b4-d90f-d49a1f90968b",
       "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "nl01-vlr01.tcp-reset-club.net"
+      "flow": null,
+      "network": "httpupgrade",
+      "servername": "www.time.ir"
     },
     {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
       "type": "vless",
-      "server": "46.17.101.252",
+      "server": "143.20.236.203",
+      "port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
+      "type": "vless",
+      "server": "46.17.97.237",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -1191,7 +1334,7 @@
     {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
       "type": "vless",
-      "server": "5.39.217.217",
+      "server": "94.159.104.1",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -1202,13 +1345,13 @@
     {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
       "type": "vless",
-      "server": "5.253.30.91",
-      "port": 443,
-      "uuid": "620f8560-8e40-4229-a988-970528c0b620",
+      "server": "reza.alphanet01.com",
+      "port": 51349,
+      "uuid": "a8525634-0dbf-4045-849d-51a64a7dba8b",
       "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "5.253.30.91"
+      "flow": null,
+      "network": "ws",
+      "servername": "play.google.com"
     },
     {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%5BBL%5D",
@@ -1235,31 +1378,9 @@
     {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%5BBL%5D",
       "type": "vless",
-      "server": "nl02-vlr01.tcp-reset-club.net",
-      "port": 443,
-      "uuid": "6178d1c9-884d-4390-98b0-801aa3ad3ad8",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "nl02-vlr01.tcp-reset-club.net"
-    },
-    {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%5BBL%5D",
-      "type": "vless",
-      "server": "nl04-vlr01.tcp-reset-club.net",
-      "port": 443,
-      "uuid": "6178d1c9-884d-4390-98b0-801aa3ad3ad8",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "nl04-vlr01.tcp-reset-club.net"
-    },
-    {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%5BBL%5D",
-      "type": "vless",
       "server": "nl03-vlr01.tcp-reset-club.net",
       "port": 443,
-      "uuid": "61f6f171-e12f-44e2-a10a-26a070004222",
+      "uuid": "d9ca856b-9702-417f-96c7-70e5edadede3",
       "tls": false,
       "flow": "xtls-rprx-vision",
       "network": "tcp",
@@ -1270,60 +1391,60 @@
       "type": "vless",
       "server": "nl04-vlr01.tcp-reset-club.net",
       "port": 443,
-      "uuid": "61f6f171-e12f-44e2-a10a-26a070004222",
+      "uuid": "d9ca856b-9702-417f-96c7-70e5edadede3",
       "tls": false,
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "servername": "nl04-vlr01.tcp-reset-club.net"
     },
     {
-      "name": "%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%5BBL%5D",
+      "name": "%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Bah%C3%A7elievler%20%5BBL%5D",
       "type": "vless",
-      "server": "test.country-17.eu-ffast.com",
+      "server": "93.114.98.171",
       "port": 443,
-      "uuid": "a23ebab9-6158-4c98-a1eb-267428894f1e",
+      "uuid": "990e5a63-71e4-4dca-b110-ea8f9bf9f54b",
       "tls": false,
       "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "servername": "test.country-17.eu-ffast.com"
+      "servername": "93.114.98.171"
     },
     {
       "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Fareham%20%5BBL%5D",
       "type": "vless",
       "server": "gb01-vlr01.tcp-reset-club.net",
       "port": 443,
-      "uuid": "6178d1c9-884d-4390-98b0-801aa3ad3ad8",
+      "uuid": "d9ca856b-9702-417f-96c7-70e5edadede3",
       "tls": false,
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "servername": "gb01-vlr01.tcp-reset-club.net"
     },
     {
-      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Fareham%20%5BBL%5D",
+      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Hounslow%20%5BBL%5D",
       "type": "vless",
-      "server": "gb01-vlr01.tcp-reset-club.net",
+      "server": "34.39.62.53",
       "port": 443,
-      "uuid": "6178d1c9-884d-4390-98b0-801aa3ad3ad8",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "gb01-vlr01.tcp-reset-club.net"
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Fareham%20%5BBL%5D",
+      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%5BBL%5D",
       "type": "vless",
-      "server": "gb01-vlr01.tcp-reset-club.net",
+      "server": "196.196.249.55",
       "port": 443,
-      "uuid": "61f6f171-e12f-44e2-a10a-26a070004222",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "gb01-vlr01.tcp-reset-club.net"
+      "uuid": "0d12578e-50da-41b9-a913-6c1d8c0dd713",
+      "tls": true,
+      "flow": null,
+      "network": "grpc",
+      "servername": "196.196.249.55"
     },
     {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Brewer%20%5BBL%5D",
+      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Chicago%20%5BBL%5D",
       "type": "vless",
-      "server": "89.169.13.207",
+      "server": "193.233.133.77",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -1334,18 +1455,29 @@
     {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Chicago%20%5BBL%5D",
       "type": "vless",
-      "server": "25.129.198.238",
-      "port": 2096,
+      "server": "193.37.70.3",
+      "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "sni.jpmj.dev"
+      "servername": "sni.111000.indevs.in"
     },
     {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Chicago%20%5BBL%5D",
       "type": "vless",
-      "server": "37.128.204.4",
+      "server": "195.135.253.121",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "sni.111000.indevs.in"
+    },
+    {
+      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Chicago%20%5BBL%5D",
+      "type": "vless",
+      "server": "195.135.253.47",
       "port": 2053,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -1354,32 +1486,10 @@
       "servername": "sni.111000.indevs.in"
     },
     {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Chicago%20%5BBL%5D",
-      "type": "vless",
-      "server": "46.32.187.37",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Chicago%20%5BBL%5D",
-      "type": "vless",
-      "server": "us-cherry-01.com",
-      "port": 8443,
-      "uuid": "8a35152a-b65c-4f6b-aec4-7844d5f9e6d8",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "us-cherry-01.com"
-    },
-    {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%5BBL%5D",
       "type": "vless",
-      "server": "192.0.54.31",
-      "port": 8443,
+      "server": "8.34.146.255",
+      "port": 2083,
       "uuid": "5566ef21-b44d-4f2f-9356-6664a7c611ee",
       "tls": true,
       "flow": null,
@@ -1398,50 +1508,6 @@
       "servername": "www.ahram.org.eg"
     },
     {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Pablo%20%5BBL%5D",
-      "type": "vless",
-      "server": "143.20.213.32",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Pablo%20%5BBL%5D",
-      "type": "vless",
-      "server": "20.47.90.83",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Pablo%20%5BBL%5D",
-      "type": "vless",
-      "server": "80.66.85.115",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Pablo%20%5BBL%5D",
-      "type": "vless",
-      "server": "89.169.13.207",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "89.169.13.207"
-    },
-    {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Secaucus%20%5BBL%5D",
       "type": "vless",
       "server": "172.82.67.158",
@@ -1453,92 +1519,48 @@
       "servername": "mstdn.jp"
     },
     {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Secaucus%20%5BBL%5D",
-      "type": "vless",
-      "server": "vvbg.191262.xyz",
-      "port": 443,
-      "uuid": "4a7baca1-8048-4a91-8316-595b36657a54",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "www.aljazeera.net"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Secaucus%20%5BBL%5D",
-      "type": "vless",
-      "server": "nnnnnnnnn.huangshang.online",
-      "port": 443,
-      "uuid": "b9bb332d-5e0d-41af-adac-49362dde8661",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "www.transgendermap.com"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Secaucus%20%5BBL%5D",
-      "type": "vless",
-      "server": "rrrt.7777125.xyz",
-      "port": 443,
-      "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "www.iea.org"
-    },
-    {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Wilmington%20%5BBL%5D",
       "type": "vless",
       "server": "us01-vlr01-gmn03.vpnvezdehod.net",
       "port": 443,
-      "uuid": "61f6f171-e12f-44e2-a10a-26a070004222",
+      "uuid": "d9ca856b-9702-417f-96c7-70e5edadede3",
       "tls": false,
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "servername": "us01-vlr01-gmn03.vpnvezdehod.net"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Wilmington%20%5BBL%5D",
-      "type": "vless",
-      "server": "us01-vlr01-gmn03.vpnvezdehod.net",
-      "port": 443,
-      "uuid": "61f6f171-e12f-44e2-a10a-26a070004222",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "us01-vlr01-gmn03.vpnvezdehod.net"
-    },
-    {
-      "name": "%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Cheremushki%20%5BBL%5D",
-      "type": "vless",
-      "server": "94.156.181.127",
-      "port": 443,
-      "uuid": "f6a07f24-4059-4593-9feb-044a8760f46c",
-      "tls": false,
-      "flow": null,
-      "network": "tcp",
-      "servername": "94.156.181.127"
-    },
-    {
-      "name": "%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Domodedovo%20%5BBL%5D",
-      "type": "vless",
-      "server": "185.156.19.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.indevs.in"
     },
     {
       "name": "%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%5BBL%5D",
       "type": "vless",
       "server": "afrcloud22.mmv.kr",
       "port": 443,
-      "uuid": "e94fa491-b1dd-489a-b6c4-945c8785a46d",
+      "uuid": "516416df-18a1-47b1-94a1-5bbd54b7e8d3",
       "tls": true,
       "flow": null,
       "network": "ws",
       "servername": "afrcloud22.mmv.kr"
+    },
+    {
+      "name": "%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%5BBL%5D",
+      "type": "vless",
+      "server": "8.34.146.255",
+      "port": 2083,
+      "uuid": "5566ef21-b44d-4f2f-9356-6664a7c611ee",
+      "tls": true,
+      "flow": null,
+      "network": "ws",
+      "servername": "mc2-1rw.pages.dev"
+    },
+    {
+      "name": "%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20St%20Petersburg%20%5BBL%5D",
+      "type": "vless",
+      "server": "ru.cheburnetnastalgia1998.com",
+      "port": 443,
+      "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f",
+      "tls": true,
+      "flow": null,
+      "network": "httpupgrade",
+      "servername": "ru.cheburnetnastalgia1998.com"
     }
   ]
 }
