@@ -1,125 +1,48 @@
 {
   "outbounds": [
     {
-      "name": "%F0%9F%87%A6%F0%9F%87%B2%20Armenia%2C%20Yerevan%20%7C%20%5BBL%5D",
+      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "am.vitalik.space",
+      "server": "us.netvora.space",
       "port": 443,
-      "uuid": "2478528e-ecad-4134-a7cc-878f08a76865",
+      "uuid": "2baffe9c-099d-481b-8d9c-7eb351c9bf35",
       "tls": false,
       "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "servername": "am.vitalik.space"
+      "servername": "us.netvora.space"
     },
     {
-      "name": "%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%5BBL%5D",
+      "name": "%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "199.232.131.39",
+      "server": "eespeed.netvora.space",
       "port": 443,
-      "uuid": "bf1b45af-c13a-438f-8d32-3b5a31b6735b",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sajilaji.global.ssl.fastly.net"
-    },
-    {
-      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "cactus.qvzlwk.sbs",
-      "port": 443,
-      "uuid": "fc35d32e-1562-4d91-9910-a9c2124451c7",
+      "uuid": "2baffe9c-099d-481b-8d9c-7eb351c9bf35",
       "tls": false,
       "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "servername": "cactus.qvzlwk.sbs"
-    },
-    {
-      "name": "%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "lk-cdn.deploy-assure.ru",
-      "port": 443,
-      "uuid": "4292f5ab-8963-0bb8-8052-3615895ce4f1",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "lk-cdn.deploy-assure.ru"
-    },
-    {
-      "name": "%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "fr.vitalik.space",
-      "port": 443,
-      "uuid": "2478528e-ecad-4134-a7cc-878f08a76865",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "fr.vitalik.space"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "lk-cdn.deploy-assure.ru",
-      "port": 443,
-      "uuid": "4292f5ab-8963-03e8-8052-3615895ce4f1",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "lk-cdn.deploy-assure.ru"
+      "servername": "eespeed.netvora.space"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "squad-2-de.vps-m.ru",
+      "server": "de.netvora.space",
       "port": 443,
-      "uuid": "0509acee-63e3-4364-95cc-21c601f059be",
+      "uuid": "2baffe9c-099d-481b-8d9c-7eb351c9bf35",
       "tls": false,
       "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "servername": "squad-2-de.vps-m.ru"
+      "servername": "de.netvora.space"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "de3.cyphervpn.pro",
-      "port": 443,
-      "uuid": "5e80ffa4-13fd-11f1-a5fb-0242ac110002",
+      "server": "panel-de1.998521.xyz",
+      "port": 60260,
+      "uuid": "5eb165ea-afb6-427a-a814-adf14856a169",
       "tls": false,
       "flow": null,
-      "network": "tcp",
-      "servername": "de3.cyphervpn.pro"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "de4.cyphervpn.pro",
-      "port": 443,
-      "uuid": "5e80ffa4-13fd-11f1-a5fb-0242ac110002",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "de4.cyphervpn.pro"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "gos25.portal-guard.com",
-      "port": 8443,
-      "uuid": "cc5dc6dd-d47e-4ab8-8ea4-b72dbba951c6",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "gos25.portal-guard.com"
-    },
-    {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "serendipity.qvzlwk.sbs",
-      "port": 443,
-      "uuid": "e06b2fc8-131d-4ba1-991d-c126697df43a",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "serendipity.qvzlwk.sbs"
+      "network": "ws",
+      "servername": "panel-de1.998521.xyz"
     },
     {
       "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%5BBL%5D",
@@ -133,17 +56,6 @@
       "servername": "212.113.99.50"
     },
     {
-      "name": "%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "meow-frankfurt.nethcloud.top",
-      "port": 8443,
-      "uuid": "21915536-afb5-4a0c-b047-fcf549d3a173",
-      "tls": false,
-      "flow": null,
-      "network": "tcp",
-      "servername": "meow-frankfurt.nethcloud.top"
-    },
-    {
       "name": "%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Chiyoda%20%7C%20%5BBL%5D",
       "type": "vless",
       "server": "116.80.44.144",
@@ -155,15 +67,26 @@
       "servername": "116.80.44.144"
     },
     {
-      "name": "%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
+      "name": "%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%2C%20Almaty%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "ru2y.aimodelhub.top",
+      "server": "kz1.cyphervpn.pro",
       "port": 443,
-      "uuid": "e6bce51a-acd5-000e-8bb0-5047b72a23cc",
+      "uuid": "5e80ffa4-13fd-11f1-a5fb-0242ac110002",
       "tls": false,
       "flow": null,
       "network": "xhttp",
-      "servername": "ru2y.aimodelhub.top"
+      "servername": "kz1.cyphervpn.pro"
+    },
+    {
+      "name": "%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%5BBL%5D",
+      "type": "vless",
+      "server": "poland-meow.nethcloud.top",
+      "port": 8443,
+      "uuid": "21915536-afb5-4a0c-b047-fcf549d3a173",
+      "tls": false,
+      "flow": null,
+      "network": "tcp",
+      "servername": "poland-meow.nethcloud.top"
     },
     {
       "name": "%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Pioneer%29%20%7C%20%5BBL%5D",
@@ -188,6 +111,28 @@
       "servername": "free-server.techsonic.ggff.net"
     },
     {
+      "name": "%F0%9F%87%AA%F0%9F%87%B8%20Spain%2C%20Madrid%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
+      "type": "vless",
+      "server": "ip.xqnetwork.ir",
+      "port": 2086,
+      "uuid": "112a043b-22be-4967-9390-6fc07011e01b",
+      "tls": false,
+      "flow": null,
+      "network": "httpupgrade",
+      "servername": "span.dl101movis.ir"
+    },
+    {
+      "name": "%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+      "type": "vless",
+      "server": "se.netvora.space",
+      "port": 443,
+      "uuid": "2baffe9c-099d-481b-8d9c-7eb351c9bf35",
+      "tls": false,
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "servername": "se.netvora.space"
+    },
+    {
       "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D",
       "type": "vless",
       "server": "cache2.datapull.cc",
@@ -199,147 +144,15 @@
       "servername": "cache2.datapull.cc"
     },
     {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
+      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Eygelshoven%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "ams1.maxservice.life",
+      "server": "nl.netvora.space",
       "port": 443,
-      "uuid": "05ea4868-155c-11f1-8cad-c3845d39d2de",
+      "uuid": "2baffe9c-099d-481b-8d9c-7eb351c9bf35",
       "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "ams1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "ams1.maxservice.life",
-      "port": 443,
-      "uuid": "05ea4868-155c-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "ams1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "ams1.maxservice.life",
-      "port": 443,
-      "uuid": "648f9756-159d-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "ams1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "ams1.maxservice.life",
-      "port": 443,
-      "uuid": "7c2012e4-1555-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "ams1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "ams1.maxservice.life",
-      "port": 443,
-      "uuid": "7c2012e4-1555-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "ams1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "ams1.maxservice.life",
-      "port": 443,
-      "uuid": "e5f13a14-16bc-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "ams1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Meppel%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "v3.dabache.top",
-      "port": 2052,
-      "uuid": "5e62ddcf-78c9-4b15-803a-436c8c839ddc",
-      "tls": false,
-      "flow": null,
-      "network": "ws",
-      "servername": "oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK"
-    },
-    {
-      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "45.130.125.10",
-      "port": 2053,
-      "uuid": "7b3ba8c0-0bb2-469a-a396-1c360e7da8d7",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "mskyehfojwown7dooejenggsjsp73839.mrpixanos.ir"
-    },
-    {
-      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "45.130.125.10",
-      "port": 8443,
-      "uuid": "7b3ba8c0-0bb2-469a-a396-1c360e7da8d7",
-      "tls": true,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "fdlqoqigovlwqiq8gngoqoiqwnvowhnwq829202.mrpixanos.ir"
-    },
-    {
-      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "45.130.125.11",
-      "port": 2053,
-      "uuid": "7b3ba8c0-0bb2-469a-a396-1c360e7da8d7",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "mskyehfojwown7dooejenggsjsp73839.mrpixanos.ir"
-    },
-    {
-      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "45.130.125.12",
-      "port": 2053,
-      "uuid": "7b3ba8c0-0bb2-469a-a396-1c360e7da8d7",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "mskyehfojwown7dooejenggsjsp73839.mrpixanos.ir"
-    },
-    {
-      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Manchester%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "103.160.204.191",
-      "port": 8443,
-      "uuid": "115e24e4-fc6b-4d89-8f55-05eb00770001",
-      "tls": true,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "ic.imsoon.io."
-    },
-    {
-      "name": "%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Manchester%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "cdnuser2048mb.wrongguy.ir",
-      "port": 8443,
-      "uuid": "115e24e4-fc6b-4d89-8f55-05eb00770001",
-      "tls": true,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "ic.imsoon.io."
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "servername": "nl.netvora.space"
     },
     {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
@@ -351,105 +164,6 @@
       "flow": null,
       "network": "xhttp",
       "servername": "us2.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "05ea4868-155c-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "05ea4868-155c-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "speedtest.net"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "05ea4868-155c-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "14095462-1556-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "648f9756-159d-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "648f9756-159d-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "7b9eee6a-13e0-11f1-8992-6dc1f910523f",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "7c2012e4-1555-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "7c2012e4-1555-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
     },
     {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
@@ -487,17 +201,6 @@
     {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "us1.maxservice.life",
-      "port": 443,
-      "uuid": "e5f13a14-16bc-11f1-8cad-c3845d39d2de",
-      "tls": false,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "us1.maxservice.life"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
       "server": "us2.maxservice.life",
       "port": 443,
       "uuid": "f4061ece-155b-11f1-8cad-c3845d39d2de",
@@ -518,76 +221,65 @@
       "servername": "us-01.vitalik.space"
     },
     {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clarita%20%28Canyon%20Country%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "142.171.217.19",
-      "port": 29028,
-      "uuid": "7426d51e-bb52-403d-e3bb-ef823d306766",
-      "tls": false,
-      "flow": null,
-      "network": "tcp",
-      "servername": "addons.mozilla.org"
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clarita%20%28Canyon%20Country%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "142.171.217.19",
-      "port": 29028,
-      "uuid": "7426d51e-bb52-403d-e3bb-ef823d306766",
-      "tls": false,
-      "flow": null,
-      "network": "tcp",
-      "servername": "142.171.217.19"
-    },
-    {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "185.36.143.40",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
+      "server": "chatgpt.com",
+      "port": 2052,
+      "uuid": "5e62ddcf-78c9-4b15-803a-436c8c839ddc",
+      "tls": false,
       "flow": null,
       "network": "ws",
-      "servername": "sni.111000.v6.navy"
+      "servername": "oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK."
     },
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "144.34.163.149",
-      "port": 58431,
-      "uuid": "055e3bd2-10f8-4d9c-8f7d-70b9f659e476",
+      "server": "chatgpt.com",
+      "port": 8443,
+      "uuid": "15190a50-e317-4acd-8baf-a6c8da1ae2ef",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "c0.ttlive4.dns-dynamic.net"
+      "servername": "003.electrocellco-cf-003.workers.dev"
     },
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "163.5.207.124",
+      "server": "meow-frankfurt.nethcloud.top",
+      "port": 8443,
+      "uuid": "21915536-afb5-4a0c-b047-fcf549d3a173",
+      "tls": false,
+      "flow": null,
+      "network": "tcp",
+      "servername": "meow-frankfurt.nethcloud.top"
+    },
+    {
+      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
+      "type": "vless",
+      "server": "104.249.40.219",
       "port": 443,
       "uuid": "26524cce-d514-4014-a426-365fb266a14d",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "_acme-challenge.443888.xyz"
+      "servername": "k7ryegiaeu.chinam.eu.org"
     },
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "2.59.183.198",
-      "port": 443,
+      "server": "152.53.143.195",
+      "port": 8443,
       "uuid": "26524cce-d514-4014-a426-365fb266a14d",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "_acme-challenge.443888.xyz"
+      "servername": "lirpeuijr.chinav.indevs.in"
     },
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "45.88.67.65",
-      "port": 443,
+      "server": "194.87.97.6",
+      "port": 2053,
       "uuid": "26524cce-d514-4014-a426-365fb266a14d",
       "tls": true,
       "flow": null,
@@ -619,57 +311,13 @@
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "80.211.192.36",
-      "port": 8443,
+      "server": "91.90.193.159",
+      "port": 443,
       "uuid": "26524cce-d514-4014-a426-365fb266a14d",
       "tls": true,
       "flow": null,
       "network": "ws",
       "servername": "bt5hpm5jf6.chinam.eu.org"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "103.219.194.43",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.v6.navy"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "138.124.182.56",
-      "port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.v6.navy"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "185.209.161.104",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.v6.navy"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "185.236.22.207",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.v6.navy"
     },
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
@@ -696,29 +344,7 @@
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "193.42.60.235",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.v6.navy"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "213.21.253.63",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.v6.navy"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "38.244.204.203",
+      "server": "217.147.15.141",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -740,7 +366,7 @@
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "5.187.3.170",
+      "server": "5.34.211.103",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -758,50 +384,6 @@
       "flow": null,
       "network": "ws",
       "servername": "sni.111000.v6.navy"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "94.159.106.193",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.v6.navy"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "94.159.99.56",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "sni.111000.v6.navy"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "125.59.175.7",
-      "port": 60006,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "154.208.10.70",
-      "port": 8443,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
     },
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
@@ -839,156 +421,13 @@
     {
       "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
       "type": "vless",
-      "server": "220.130.160.137",
-      "port": 20880,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
+      "server": "121.152.46.7",
+      "port": 10243,
+      "uuid": "8ae7cac7-36f7-d208-367d-2322dcb73973",
       "tls": true,
       "flow": null,
       "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "23.185.200.228",
-      "port": 18443,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "43.160.244.124",
-      "port": 443,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "43.161.217.205",
-      "port": 1443,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "43.167.186.55",
-      "port": 80,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "45.121.138.23",
-      "port": 26688,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "45.66.130.58",
-      "port": 51002,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "47.251.88.90",
-      "port": 443,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "47.77.239.158",
-      "port": 443,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "59.6.239.208",
-      "port": 12203,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "8.222.185.236",
-      "port": 443,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "6f221d78.mfree.ccwu.cc"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "18betasia.com",
-      "port": 2053,
-      "uuid": "7b3ba8c0-0bb2-469a-a396-1c360e7da8d7",
-      "tls": true,
-      "flow": null,
-      "network": "ws",
-      "servername": "mskyehfojwown7dooejenggsjsp73839.mrpixanos.ir"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "18betasia.com",
-      "port": 8443,
-      "uuid": "7b3ba8c0-0bb2-469a-a396-1c360e7da8d7",
-      "tls": true,
-      "flow": null,
-      "network": "xhttp",
-      "servername": "hsygw246920lsh.mrpixanos.ir"
-    },
-    {
-      "name": "%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D",
-      "type": "vless",
-      "server": "cache-2.datapull.cc",
-      "port": 443,
-      "uuid": "c015f603-f03d-44e1-b29a-15a8253dec3c",
-      "tls": false,
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "servername": "cache-2.datapull.cc"
+      "servername": "n518.kqa.eduin.indevs.in"
     }
   ]
 }
