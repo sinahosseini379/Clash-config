@@ -3,115 +3,169 @@ log-level: info
 mode: rule
 mixed-port: 7890
 proxies:
-- name: '%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%7C%20%5BBL%5D'
+- name: '%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Liezen%20District%20%7C%20%5BBL%5D'
   type: vless
-  server: 147.161.3.29
-  port: 443
-  uuid: 8423916b-3046-4f3b-8b7e-a7d4aa2f7947
+  server: wi01.zqwerty.ru
+  port: 2053
+  uuid: 110d7bad-5e17-4ce3-afd0-2cf2ebc71787
   tls: false
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: 147.161.3.29
-- name: '%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D'
-  type: vless
-  server: 151.101.3.6
-  port: 443
-  uuid: 5a2334d8-cf0f-4be7-8354-ede207e9897e
-  tls: true
   flow: null
   network: xhttp
-  servername: tatarintallin.com
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
+  servername: wi01.zqwerty.ru
+- name: '%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%7C%20%5BBL%5D'
   type: vless
-  server: pl.astralweb.tech
-  port: 8443
-  uuid: aead6961-8924-417b-85af-b6ddc8bcdc0e
-  tls: false
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: pl.astralweb.tech
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 103.27.157.202
-  port: 9443
-  uuid: 6053689d-39d6-4005-b1bd-c0dce854f429
-  tls: false
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: 103.27.157.202
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: de-fast.chunkyvpn.shop
-  port: 443
-  uuid: 6053689d-39d6-4005-b1bd-c0dce854f429
-  tls: true
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: de-fast.chunkyvpn.shop
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: vpn4.osaku.ru
-  port: 17873
-  uuid: 35b8e6de-9ea9-42a6-8045-c858e1b0a37d
+  server: bg01.zqwerty.ru
+  port: 2053
+  uuid: 110d7bad-5e17-4ce3-afd0-2cf2ebc71787
   tls: false
   flow: null
-  network: tcp
-  servername: vpn4.osaku.ru
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  network: xhttp
+  servername: bg01.zqwerty.ru
+- name: '%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D'
   type: vless
-  server: 150.241.79.245
+  server: 150.241.74.1
+  port: 443
+  uuid: 5f98c4f8-19f4-471d-8ed5-10c0550c0423
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 150.241.74.1
+- name: '%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.148.101.234
+  port: 443
+  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 45.148.101.234
+- name: '%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: fi-bridge.sbrf-cdn342.ru
   port: 443
   uuid: e1c3b1b5-5d8f-4bce-a999-b442762dc245
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: 150.241.79.245
-- name: '%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D'
+  servername: fi-bridge.sbrf-cdn342.ru
+- name: '%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: secdn15.dramatorg.net
+  server: fi.gamma-vpn.ru
   port: 443
-  uuid: 576993a0-3b23-4c65-8c6d-2165b098826b
-  tls: true
-  flow: null
-  network: tcp
-  servername: secdn15.dramatorg.net
-- name: '%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D'
-  type: vless
-  server: secdn15.dramatorg.net
-  port: 443
-  uuid: 576993a0-3b23-4c65-8c6d-2165b098826b
-  tls: true
-  flow: null
-  network: tcp
-  servername: secdn15.dramatorg.net
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
-  type: vless
-  server: nl.chunkyvpn.shop
-  port: 443
-  uuid: 6053689d-39d6-4005-b1bd-c0dce854f429
-  tls: true
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: nl.chunkyvpn.shop
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
-  type: vless
-  server: nl.chunkyvpn.shop
-  port: 8443
-  uuid: 6053689d-39d6-4005-b1bd-c0dce854f429
-  tls: true
-  flow: null
-  network: xhttp
-  servername: nl.chunkyvpn.shop
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
-  type: vless
-  server: nl-main.thetopvpn.ru
-  port: 443
-  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
+  uuid: 077a96d9-2f23-4522-b6ff-61f3793aac29
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: nl-main.thetopvpn.ru
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
+  servername: fi.gamma-vpn.ru
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 178.17.50.173
+  port: 443
+  uuid: c59faa91-2ac7-451d-9181-fa347baa2a61
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 178.17.50.173
+- name: '%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: swe-bridge.sbrf-cdn342.ru
+  port: 443
+  uuid: e1c3b1b5-5d8f-4bce-a999-b442762dc245
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: swe-bridge.sbrf-cdn342.ru
+- name: '%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: pro-ru-bridge.emrata.top
+  port: 443
+  uuid: 9414553e-822d-0028-b340-e305f636ca94
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: pro-ru-bridge.emrata.top
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
+  type: vless
+  server: 85.209.157.32
+  port: 568
+  uuid: c6780ff6-cd1e-4c57-8aa0-42ee0ccbd1d7
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 85.209.157.32
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 72.56.100.108
+  port: 443
+  uuid: c42c55b5-3976-44af-9927-c99d9345607f
+  tls: false
+  flow: null
+  network: grpc
+  servername: 72.56.100.108
+- name: '%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Yakuplu%20%7C%20%5BBL%5D'
+  type: vless
+  server: 188.132.184.148
+  port: 8443
+  uuid: d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 188.132.184.148
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
+  type: vless
+  server: 95.181.173.131
+  port: 8443
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  tls: true
+  flow: null
+  network: ws
+  servername: ylnhh.cc.cd
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
+  type: vless
+  server: 43.250.54.63
+  port: 8443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  tls: true
+  flow: null
+  network: ws
+  servername: _acme-challenge.443888.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
+  type: vless
+  server: 213.165.54.4
+  port: 443
+  uuid: 50b672fd-167c-4598-9efa-dd3568316329
+  tls: false
+  flow: xtls-rprx-vision
+  network: raw
+  servername: 213.165.54.4
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
+  type: vless
+  server: 89.124.71.89
+  port: 443
+  uuid: 58acdb3c-cbe2-4777-ac55-b21d857617f8
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 89.124.71.89
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
+  type: vless
+  server: ne02.sonicsonic.icu
+  port: 443
+  uuid: 71a5d7f2-2ac6-4020-acaf-3c59efa4e856
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: ne02.sonicsonic.icu
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
+  type: vless
+  server: nl-ams-4.blook.network
+  port: 443
+  uuid: 94b42a64-33fc-4b23-87c6-cf3f2c630429
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: nl-ams-4.blook.network
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
   type: vless
   server: ge.astralweb.tech
   port: 8443
@@ -120,91 +174,46 @@ proxies:
   flow: xtls-rprx-vision
   network: tcp
   servername: ge.astralweb.tech
-- name: '%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Manassas%20%7C%20%5BBL%5D'
-  type: vless
-  server: 152.53.242.55
-  port: 443
-  uuid: fde3da09-e21d-4d8a-aba7-4aef5b963805
-  tls: false
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: 152.53.242.55
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
   type: vless
-  server: 89.169.33.230
-  port: 443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
-  type: vless
-  server: 81.90.17.76
-  port: 40015
-  uuid: 3f45dd2a-307c-44c8-8fad-c1462b682547
-  tls: false
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: 81.90.17.76
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
-  type: vless
-  server: 193.35.17.245
+  server: ge.astralweb.tech
   port: 8443
   uuid: aead6961-8924-417b-85af-b6ddc8bcdc0e
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: 193.35.17.245
+  servername: ge.astralweb.tech
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 220.122.176.172
-  port: 32798
+  server: 45.120.157.18
+  port: 3193
   uuid: 00000000-0000-4000-8000-000000000000
   tls: true
   flow: null
   network: ws
-  servername: sub.mot.ip-ddns.com
+  servername: v-jkid7x7r71t868pqf81hs.worker.ddns-ip.net
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 23.187.72.183
-  port: 520
+  server: 74.48.133.37
+  port: 2443
   uuid: 00000000-0000-4000-8000-000000000000
   tls: true
   flow: null
   network: ws
-  servername: sub.mot.ip-ddns.com
+  servername: a3b0hudm3kx8.makuyo.dpdns.org
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 23.187.72.183
-  port: 520
-  uuid: 00000000-0000-4000-8000-000000000000
-  tls: true
-  flow: null
-  network: ws
-  servername: sub.mot.ip-ddns.com
+  server: 194.5.248.39
+  port: 443
+  uuid: 077a96d9-2f23-4522-b6ff-61f3793aac29
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 194.5.248.39
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 103.43.191.121
-  port: 8443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 121.182.19.164
-  port: 11965
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 198.204.227.171
-  port: 2053
+  server: 14.46.128.84
+  port: 12517
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   tls: true
   flow: null
@@ -230,8 +239,8 @@ proxies:
   servername: ylnhh.cc.cd
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 216.126.224.117
-  port: 8443
+  server: 213.165.37.11
+  port: 443
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   tls: true
   flow: null
@@ -240,6 +249,15 @@ proxies:
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 34.92.187.216
+  port: 443
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  tls: true
+  flow: null
+  network: ws
+  servername: ylnhh.cc.cd
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 35.209.115.172
   port: 443
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   tls: true
@@ -257,15 +275,6 @@ proxies:
   servername: ylnhh.cc.cd
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 44.217.235.114
-  port: 2053
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
   server: 47.239.4.246
   port: 2053
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -286,24 +295,6 @@ proxies:
   type: vless
   server: 47.239.4.246
   port: 8443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 62.60.217.190
-  port: 8443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 77.239.97.139
-  port: 2053
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   tls: true
   flow: null
@@ -320,7 +311,16 @@ proxies:
   servername: ylnhh.cc.cd
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 8.218.226.31
+  server: 77.91.86.85
+  port: 443
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  tls: true
+  flow: null
+  network: ws
+  servername: ylnhh.cc.cd
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 77.91.86.85
   port: 443
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   tls: true
@@ -340,15 +340,6 @@ proxies:
   type: vless
   server: 82.117.84.249
   port: 443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 83.147.192.111
-  port: 8443
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   tls: true
   flow: null
@@ -357,24 +348,6 @@ proxies:
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 83.229.122.50
-  port: 443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 89.169.33.230
-  port: 443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  flow: null
-  network: ws
-  servername: ylnhh.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 89.169.53.88
   port: 443
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   tls: true
@@ -419,16 +392,25 @@ proxies:
   servername: ylnhh.cc.cd
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 95.181.173.131
+  server: nl46.tcpdoor.net
+  port: 443
+  uuid: 2563b829-866c-4c0f-8270-a91cffbfe852
+  tls: false
+  flow: null
+  network: tcp
+  servername: nl46.tcpdoor.net
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 43.250.54.63
   port: 8443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   tls: true
   flow: null
   network: ws
-  servername: ylnhh.cc.cd
+  servername: _acme-challenge.443888.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 2.59.183.198
+  server: 45.144.154.195
   port: 443
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   tls: true
@@ -437,13 +419,13 @@ proxies:
   servername: _acme-challenge.443888.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 185.151.146.40
-  port: 443
-  uuid: 2e1add4a64494887bd4b2a3a211e58e6
+  server: fcandyshop.duckdns.org
+  port: 40014
+  uuid: 3f45dd2a-307c-44c8-8fad-c1462b682547
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: 185.151.146.40
+  servername: fcandyshop.duckdns.org
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 92.60.74.56
@@ -455,44 +437,8 @@ proxies:
   servername: 29.alij47649.workers.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 167.253.97.133
-  port: 443
-  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
-  tls: true
-  flow: null
-  network: ws
-  servername: chedan.jueson.de5.net
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
   server: 23.27.46.202
   port: 443
-  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
-  tls: true
-  flow: null
-  network: ws
-  servername: chedan.jueson.de5.net
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 50.228.203.26
-  port: 443
-  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
-  tls: true
-  flow: null
-  network: ws
-  servername: chedan.jueson.de5.net
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 57.154.33.195
-  port: 8443
-  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
-  tls: true
-  flow: null
-  network: ws
-  servername: chedan.jueson.de5.net
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 74.121.150.129
-  port: 8443
   uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
   tls: true
   flow: null
@@ -509,15 +455,6 @@ proxies:
   servername: chedan.jueson.de5.net
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 77.110.125.250
-  port: 2053
-  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
-  tls: true
-  flow: null
-  network: ws
-  servername: chedan.jueson.de5.net
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
   server: 92.118.126.170
   port: 8443
   uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
@@ -527,8 +464,8 @@ proxies:
   servername: chedan.jueson.de5.net
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 92.118.126.170
-  port: 8443
+  server: 94.183.185.151
+  port: 443
   uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
   tls: true
   flow: null
@@ -543,15 +480,6 @@ proxies:
   flow: null
   network: ws
   servername: chedan.jueson.de5.net
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 195.85.59.69
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  flow: null
-  network: ws
-  servername: cnmfangbinxingnmsl.cnm-fangbinxing--nmsl.workers.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 193.22.229.138
