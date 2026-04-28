@@ -3,366 +3,357 @@ log-level: info
 mode: rule
 mixed-port: 7890
 proxies:
-- name: '%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%7C%20%5BBL%5D'
+- name: '%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: srv152.towersflowerss.com
-  port: 64534
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv152.towersflowerss.com
-- name: '%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv152.towersflowerss.com
-  port: 64534
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv152.towersflowerss.com
-- name: '%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv174.towersflowerss.com
-  port: 65000
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv174.towersflowerss.com
-- name: '%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv174.towersflowerss.com
-  port: 65000
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv174.towersflowerss.com
-- name: '%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv174.towersflowerss.com
-  port: 65000
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv174.towersflowerss.com
-- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv120.towersflowerss.com
-  port: 65000
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv120.towersflowerss.com
-- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv120.towersflowerss.com
-  port: 65000
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv120.towersflowerss.com
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv162.towersflowerss.com
+  server: ch-1.bexum.fun
   port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: tcp
-  servername: srv162.towersflowerss.com
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv162.towersflowerss.com
-  port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: tcp
-  servername: srv162.towersflowerss.com
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
-  type: vless
-  server: 78.17.110.131
-  port: 443
-  uuid: 933fffc8-46cc-434c-b1bf-92973120c2cf
+  uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: 78.17.110.131
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
+  servername: ch-1.bexum.fun
+- name: '%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 161.104.105.157
+  server: ee.keepsecured.net
   port: 443
-  uuid: 9d9de5ad-4ce8-4d1e-870d-59fb859f5fa4
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: 161.104.105.157
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%5BBL%5D'
+  servername: ee.keepsecured.net
+- name: '%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: download.spectrum.vu
+  server: ee.keepsecured.net
   port: 443
-  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: download.spectrum.vu
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  servername: ee.keepsecured.net
+- name: '%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 138.124.32.188
-  port: 30047
-  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
+  server: ee.keepsecured.net
+  port: 8443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
   tls: false
   flow: null
-  network: ws
-  servername: 138.124.32.188
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  network: grpc
+  servername: ee.keepsecured.net
+- name: '%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D'
   type: vless
-  server: 138.124.32.188
-  port: 30047
-  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
-  tls: false
-  flow: null
-  network: ws
-  servername: 138.124.32.188
-- name: '%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D'
-  type: vless
-  server: ltt2.figurapn.ru
+  server: 213.176.17.138
   port: 443
-  uuid: 90620657-58a2-441a-a4ce-cdb0503bb9f5
+  uuid: 604e557e-41bf-45aa-9168-151715f531b3
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: ltt2.figurapn.ru
-- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  servername: 213.176.17.138
+- name: '%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D'
   type: vless
-  server: 176.98.186.50
-  port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+  server: 159.194.216.83
+  port: 8443
+  uuid: c27edd52-f249-4460-bfee-bdd3e29c0b3f
   tls: false
   flow: null
   network: tcp
-  servername: srv2.towersflowerss.com
-- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  servername: 159.194.216.83
+- name: '%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 176.98.186.50
-  port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+  server: fine3.keepsecured.net
+  port: 8443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
   tls: false
   flow: null
-  network: tcp
-  servername: 176.98.186.50
-- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  network: grpc
+  servername: fine3.keepsecured.net
+- name: '%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: srv2.towersflowerss.com
-  port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: tcp
-  servername: srv2.towersflowerss.com
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
-  type: vless
-  server: 193.39.143.101
-  port: 65000
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: 193.39.143.101
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv189.towersflowerss.com
-  port: 65000
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv189.towersflowerss.com
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
-  type: vless
-  server: vruaz.mostserv.xyz
-  port: 443
-  uuid: 37253a6a-2a9b-42bb-992c-b5f1b1ef1791
-  tls: false
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: vruaz.mostserv.xyz
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: cluster-europe-1.firstvideocdn.ru
-  port: 52006
-  uuid: 75807638-6f19-1f40-ae08-38492ee85c88
+  server: db.herumhas.shop
+  port: 8443
+  uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
   tls: true
   flow: xtls-rprx-vision
   network: tcp
-  servername: cluster-europe-1.firstvideocdn.ru
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  servername: db.herumhas.shop
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: cluster-europe-1.firstvideocdn.ru
-  port: 52006
-  uuid: 75807638-6f19-1f40-ae08-38492ee85c88
+  server: bero-3.bexum.fun
+  port: 9443
+  uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
   tls: true
   flow: xtls-rprx-vision
   network: tcp
-  servername: cluster-europe-1.firstvideocdn.ru
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  servername: bero-3.bexum.fun
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
   type: vless
-  server: cluster-europe-1.firstvideocdn.ru
-  port: 52006
-  uuid: 75807638-6f19-1f40-ae08-38492ee85c88
-  tls: true
+  server: 150.241.70.2
+  port: 5443
+  uuid: 511de852-8b34-41b9-91d2-28eba0981beb
+  tls: false
+  flow: null
+  network: tcp
+  servername: 150.241.70.2
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
+  type: vless
+  server: 85.93.10.110
+  port: 8443
+  uuid: 604e557e-41bf-45aa-9168-151715f531b3
+  tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: cluster-europe-1.firstvideocdn.ru
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
+  servername: 85.93.10.110
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
   type: vless
-  server: srv190.towersflowerss.com
+  server: 85.93.10.112
   port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+  uuid: 604e557e-41bf-45aa-9168-151715f531b3
   tls: false
-  flow: null
-  network: ws
-  servername: srv190.towersflowerss.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 85.93.10.112
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
   type: vless
-  server: srv190.towersflowerss.com
+  server: de5.safepass.click
   port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+  uuid: 7d3e6808-d105-4ee4-b904-1f6ed8417f4d
   tls: false
-  flow: null
-  network: ws
-  servername: srv190.towersflowerss.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv190.towersflowerss.com
-  port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv190.towersflowerss.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv190.towersflowerss.com
-  port: 443
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv190.towersflowerss.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv192.towersflowerss.com
-  port: 64534
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv192.towersflowerss.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv192.towersflowerss.com
-  port: 64534
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv192.towersflowerss.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv192.towersflowerss.com
-  port: 64534
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv192.towersflowerss.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
-  type: vless
-  server: srv192.towersflowerss.com
-  port: 64534
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  tls: false
-  flow: null
-  network: ws
-  servername: srv192.towersflowerss.com
-- name: '%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D'
-  type: vless
-  server: fr.convert24.ru
-  port: 443
-  uuid: 67d3388c-f5cf-4692-9a13-c3c13d459cc0
-  tls: true
   flow: null
   network: xhttp
-  servername: fr.convert24.ru
-- name: '%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20St%20Petersburg%20%7C%20%5BBL%5D'
+  servername: de5.safepass.click
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: cluster-russia-1.firstvideocdn.ru
-  port: 52006
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+  server: m11r.speedtestmark.com
+  port: 443
+  uuid: 6a3af79f-524d-4894-9c92-95ab51969ea6
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: m11r.speedtestmark.com
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 138.124.32.188
+  port: 30047
+  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
+  tls: false
+  flow: null
+  network: ws
+  servername: 138.124.32.188
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 138.124.32.188
+  port: 30047
+  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
+  tls: false
+  flow: null
+  network: ws
+  servername: 138.124.32.188
+- name: '%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D'
+  type: vless
+  server: yul3r.stream-room.com
+  port: 8443
+  uuid: b3bc0d50-ab6a-40b4-840d-a7eeea497c81
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: yul3r.stream-room.com
+- name: '%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%28S%C3%B6dermalm%29%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.173.223.154
+  port: 443
+  uuid: 604e557e-41bf-45aa-9168-151715f531b3
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 185.173.223.154
+- name: '%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%28S%C3%B6dermalm%29%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.173.223.154
+  port: 8443
+  uuid: 604e557e-41bf-45aa-9168-151715f531b3
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 185.173.223.154
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
+  type: vless
+  server: nl5.safepass.click
+  port: 443
+  uuid: 7d3e6808-d105-4ee4-b904-1f6ed8417f4d
+  tls: false
+  flow: null
+  network: xhttp
+  servername: nl5.safepass.click
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
+  type: vless
+  server: 62.50.146.35
+  port: 9443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  tls: false
+  flow: null
+  network: grpc
+  servername: 62.50.146.35
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
+  type: vless
+  server: 62.50.146.35
+  port: 9443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  tls: false
+  flow: null
+  network: grpc
+  servername: 62.50.146.35
+- name: '%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D'
+  type: vless
+  server: tr.safepass.click
+  port: 443
+  uuid: 7d3e6808-d105-4ee4-b904-1f6ed8417f4d
+  tls: false
+  flow: null
+  network: xhttp
+  servername: tr.safepass.click
+- name: '%F0%9F%87%A6%F0%9F%87%AA%20United%20Arab%20Emirates%2C%20Abu%20Dhabi%20%7C%20%5BBL%5D'
+  type: vless
+  server: nlety.ksnodes.net
+  port: 443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  tls: true
+  flow: xtls-rprx-vision-udp443
+  network: tcp
+  servername: nlety.ksnodes.net
+- name: '%F0%9F%87%A6%F0%9F%87%AA%20United%20Arab%20Emirates%2C%20Abu%20Dhabi%20%7C%20%5BBL%5D'
+  type: vless
+  server: nlety.ksnodes.net
+  port: 443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  tls: true
+  flow: xtls-rprx-vision-udp443
+  network: tcp
+  servername: nlety.ksnodes.net
+- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Fareham%20%7C%20%5BBL%5D'
+  type: vless
+  server: ukos.ksnodes.net
+  port: 443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
   tls: true
   flow: xtls-rprx-vision
   network: tcp
-  servername: cluster-russia-1.firstvideocdn.ru
-- name: '%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20St%20Petersburg%20%7C%20%5BBL%5D'
+  servername: ukos.ksnodes.net
+- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Fareham%20%7C%20%5BBL%5D'
   type: vless
-  server: cluster-russia-1.firstvideocdn.ru
-  port: 52006
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+  server: ukos.ksnodes.net
+  port: 443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
   tls: true
   flow: xtls-rprx-vision
   network: tcp
-  servername: cluster-russia-1.firstvideocdn.ru
-- name: '%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20St%20Petersburg%20%7C%20%5BBL%5D'
+  servername: ukos.ksnodes.net
+- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D'
   type: vless
-  server: cluster-russia-1.firstvideocdn.ru
-  port: 52006
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-  tls: true
+  server: 87.120.219.167
+  port: 443
+  uuid: 604e557e-41bf-45aa-9168-151715f531b3
+  tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: cluster-russia-1.firstvideocdn.ru
-- name: '%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20St%20Petersburg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  servername: 87.120.219.167
+- name: '%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D'
   type: vless
-  server: cluster-russia-1.firstvideocdn.ru
-  port: 52006
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-  tls: true
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: cluster-russia-1.firstvideocdn.ru
+  server: 46.243.211.17
+  port: 7000
+  uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  tls: false
+  flow: null
+  network: ws
+  servername: 46.243.211.17
+- name: '%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D'
+  type: vless
+  server: 46.243.211.17
+  port: 7000
+  uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  tls: false
+  flow: null
+  network: ws
+  servername: market.yandex.ru
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 45.131.71.196
-  port: 37356
-  uuid: 00000000-0000-4000-8000-000000000000
+  server: 185.31.200.45
+  port: 8443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   tls: true
   flow: null
   network: ws
-  servername: 1n9fo0l9hl.gike.dpdns.org
+  servername: mug.support.gfw.hidns.co
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 83.147.254.4
-  port: 36089
-  uuid: 00000000-0000-4000-8000-000000000000
+  server: 77.221.141.119
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   tls: true
   flow: null
   network: ws
-  servername: 1n9fo0l9hl.gike.dpdns.org
+  servername: mug.support.gfw.hidns.co
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 91.184.240.106
-  port: 433
-  uuid: 00000000-0000-4000-8000-000000000000
+  server: 88.218.77.174
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   tls: true
   flow: null
   network: ws
-  servername: 1n9fo0l9hl.gike.dpdns.org
+  servername: mug.support.gfw.hidns.co
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 89.110.125.45
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  tls: true
+  flow: null
+  network: ws
+  servername: ynwta9.api-edge.fgfw.qzz.io
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 72.56.34.155
+  port: 9443
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 72.56.34.155
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.129.164.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.129.164.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.129.166.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.129.166.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 104.129.166.253
@@ -383,7 +374,16 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.238.68.253
+  server: 104.234.239.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.238.70.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -392,7 +392,25 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 14.102.228.253
+  server: 104.238.71.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 139.28.96.83
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  flow: null
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 141.11.202.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -402,6 +420,69 @@ proxies:
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 154.197.64.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 154.197.64.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 155.46.213.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 155.46.213.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 160.153.136.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 160.153.136.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 160.153.136.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 166.62.109.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -428,7 +509,7 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 166.62.114.253
+  server: 166.62.113.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -455,7 +536,52 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
+  server: 167.68.5.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.133.35.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
   server: 185.148.104.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.148.104.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.148.106.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.148.106.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -482,7 +608,79 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
+  server: 185.149.135.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
   server: 185.156.19.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.156.19.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.156.19.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.159.247.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.159.247.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.162.230.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.162.230.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.193.30.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -501,6 +699,33 @@ proxies:
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 185.193.31.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.238.228.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.238.228.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.238.228.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -536,6 +761,42 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
+  server: 188.42.89.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 192.0.54.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 192.169.223.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 194.87.71.102
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  flow: null
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
   server: 195.26.229.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -545,16 +806,106 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 37.1.198.128
-  port: 8443
+  server: 195.85.23.253
+  port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
+  tls: false
   flow: null
   network: ws
-  servername: sni.latonyamadeline.ndjp.net
+  servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 45.131.210.253
+  server: 195.85.23.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 198.177.56.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 198.71.191.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 209.94.90.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 209.94.90.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 213.241.198.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 216.24.57.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 27.50.48.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.130.125.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.131.211.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.131.4.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -572,7 +923,34 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 45.194.11.253
+  server: 45.142.120.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.40.146.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.40.146.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.40.150.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -617,6 +995,42 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
+  server: 45.80.110.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.80.110.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.80.111.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 45.80.111.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
   server: 5.10.244.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -627,6 +1041,42 @@ proxies:
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 5.10.244.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 5.10.244.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 5.10.244.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 5.10.246.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 50.62.174.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -644,6 +1094,33 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
+  server: 50.62.175.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 50.62.175.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 50.62.194.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
   server: 63.141.128.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -653,13 +1130,58 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 77.75.199.253
+  server: 66.235.200.253
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
   flow: null
   network: ws
   servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 66.45.118.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 72.167.243.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 77.239.105.110
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  flow: null
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 77.239.105.110
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  flow: null
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 77.239.105.110
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  flow: null
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
   server: 77.75.199.253
@@ -671,10 +1193,64 @@ proxies:
   servername: joss.jak.biz.id
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 84.22.149.236
+  server: 89.116.250.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 89.116.250.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 89.117.112.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 92.53.191.201
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: www.udemy.com.joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 92.53.191.253
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  flow: null
+  network: ws
+  servername: joss.jak.biz.id
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 31.130.149.85
   port: 8443
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   tls: true
   flow: null
   network: ws
-  servername: 1-jk1.pages.dev
+  servername: 1-bhn.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
+  type: vless
+  server: 154.92.9.156
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  flow: null
+  network: ws
+  servername: workEr-dRy-heaRt-073A.eqoniqAq.workeRs.dEv
