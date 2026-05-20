@@ -3,120 +3,66 @@ log-level: info
 mode: rule
 mixed-port: 7890
 proxies:
+- name: '%F0%9F%87%A7%F0%9F%87%BE%20Belarus%2C%20Minsk%20%7C%20%5BBL%5D'
+  type: vless
+  server: by.trustnet.sbs
+  port: 443
+  uuid: f42c93f3-755b-4e12-a856-e7c6878b34ab
+  tls: true
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: by.trustnet.sbs
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Berlin%20%7C%20%5BBL%5D'
+  type: vless
+  server: bc-fr-th.ray-balance.space
+  port: 10443
+  uuid: f6431ff1-dec0-4a6c-be4a-ce917913b589
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: bc-fr-th.ray-balance.space
 - name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D'
   type: vless
-  server: srv163.towersflowerss.com
+  server: dewarp.xtrustnet.sbs
   port: 443
-  uuid: f1233103-f7a8-42f1-b003-26c6dd391229
-  tls: false
-  flow: null
-  network: raw
-  servername: srv163.towersflowerss.com
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: api-maps.xwhiteness.top
-  port: 443
-  uuid: a2b2a4fb-7b34-472b-b4c0-e206fef1edfc
+  uuid: f42c93f3-755b-4e12-a856-e7c6878b34ab
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: api-maps.xwhiteness.top
+  servername: dewarp.xtrustnet.sbs
 - name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%5BBL%5D'
   type: vless
-  server: pl.velajio.com
-  port: 443
-  uuid: 207b433a-49fd-4704-b271-4d17385132d6
+  server: pl-2.hotservice.icu
+  port: 2066
+  uuid: b720d027-5ac1-4058-baa3-ee080f4ebbc5
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: pl.velajio.com
-- name: '%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D'
+  servername: pl-2.hotservice.icu
+- name: '%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2C%20Bern%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
   type: vless
-  server: 193.168.197.76
-  port: 6443
-  uuid: 9b62349c-2cd1-4365-9c3f-cb6edac03ee7
+  server: 92.119.165.11
+  port: 443
+  uuid: 41b92d9f-6c8d-4ac3-8eeb-eb3fcf48e102
   tls: false
-  flow: null
-  network: xhttp
-  servername: 193.168.197.76
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 92.119.165.11
 - name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
   type: vless
-  server: nl-s3.ru
+  server: srv186.towersflowerss.com
+  port: 64534
+  uuid: b43a13be-150c-4a6a-8501-b71c1b6476fb
+  tls: false
+  flow: null
+  network: ws
+  servername: srv186.towersflowerss.com
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
+  type: vless
+  server: nl.freekeysh110.online
   port: 443
-  uuid: 41d1527e-526b-436c-a84c-d70dc91f0648
+  uuid: fcb2c219-71f9-4dc2-b21d-2a6adf76d012
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: nl-s3.ru
-- name: '%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Ba%C5%9Fak%C5%9Fehir%20%7C%20%5BBL%5D'
-  type: vless
-  server: tr.s3-cloud.org
-  port: 443
-  uuid: d678c5d1-c658-47da-a448-827b27c5c31a
-  tls: false
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: tr.s3-cloud.org
-- name: '%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D'
-  type: vless
-  server: tr.s3-cloud.org
-  port: 443
-  uuid: 41d1527e-526b-436c-a84c-d70dc91f0648
-  tls: false
-  flow: xtls-rprx-vision
-  network: tcp
-  servername: tr.s3-cloud.org
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
-  type: vless
-  server: 89.19.223.148
-  port: 8443
-  uuid: 41d1527e-526b-436c-a84c-d70dc91f0648
-  tls: false
-  flow: null
-  network: tcp
-  servername: 89.19.223.148
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
-  type: vless
-  server: 89.19.223.136
-  port: 8443
-  uuid: d678c5d1-c658-47da-a448-827b27c5c31a
-  tls: false
-  flow: null
-  network: tcp
-  servername: 89.19.223.136
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
-  type: vless
-  server: 89.19.223.92
-  port: 8443
-  uuid: d678c5d1-c658-47da-a448-827b27c5c31a
-  tls: false
-  flow: null
-  network: tcp
-  servername: 89.19.223.92
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D'
-  type: vless
-  server: 78.17.39.96
-  port: 443
-  uuid: e502ee54-8e2a-41c6-a3ca-3d192e8710fb
-  tls: false
-  flow: null
-  network: grpc
-  servername: 78.17.39.96
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 153.76.116.21
-  port: 443
-  uuid: e502ee54-8e2a-41c6-a3ca-3d192e8710fb
-  tls: false
-  flow: null
-  network: grpc
-  servername: 153.76.116.21
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D'
-  type: vless
-  server: 185.215.187.28
-  port: 443
-  uuid: e502ee54-8e2a-41c6-a3ca-3d192e8710fb
-  tls: false
-  flow: null
-  network: grpc
-  servername: 185.215.187.28
+  servername: nl.freekeysh110.online
