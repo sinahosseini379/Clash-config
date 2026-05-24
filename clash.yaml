@@ -5,6 +5,15 @@ mixed-port: 7890
 proxies:
 - name: '%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
+  server: 104.143.0.216
+  port: 443
+  uuid: 6d1b6391-c4ba-431e-9c3a-148a8f392c8b
+  tls: true
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 104.143.0.216
+- name: '%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
   server: 31.14.17.188
   port: 443
   uuid: 6d1b6391-c4ba-431e-9c3a-148a8f392c8b
@@ -12,30 +21,102 @@ proxies:
   flow: xtls-rprx-vision
   network: tcp
   servername: 31.14.17.188
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+- name: '%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 132.243.225.53
-  port: 8443
-  uuid: 10e82fcc-94ec-4d09-8855-579bb55b77e4
+  server: 31.14.17.188
+  port: 443
+  uuid: 6d1b6391-c4ba-431e-9c3a-148a8f392c8b
+  tls: true
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 31.14.17.188
+- name: '%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%7C%20%5BBL%5D'
+  type: vless
+  server: bg.c2horizon.app
+  port: 443
+  uuid: 5ef5d3e4-3cf3-4e0d-9342-6758d0a702c1
   tls: false
   flow: xtls-rprx-vision
   network: tcp
-  servername: 132.243.225.53
-- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  servername: bg.c2horizon.app
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: nnl2.figurapn.ru
+  server: 77.90.61.185
+  port: 43000
+  uuid: 527ab885-5599-4d61-b4a9-46a2266998c2
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 77.90.61.185
+- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.111.59
   port: 443
-  uuid: 2f814ff1-7f41-405a-8ffa-322419a32fb4
+  uuid: e8cb6ffa-7d94-44b0-9ffc-baa6918d69cc
+  tls: true
+  flow: null
+  network: xhttp
+  servername: ovh544.global.ssl.fastly.net
+- name: '%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2C%20Geneva%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: ru10.aimodelhub.top
+  port: 443
+  uuid: ba895ce4-8c24-0001-9f22-81ee227c89d0
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: ru10.aimodelhub.top
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 89.19.223.114
+  port: 8443
+  uuid: 931c3d51-fa5a-4d20-9b92-df8c495292c7
+  tls: false
+  flow: null
+  network: tcp
+  servername: 89.19.223.114
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
+  type: vless
+  server: nl5.safepass.click
+  port: 443
+  uuid: 9d59677e-df00-4918-bb03-e428cfc7c606
   tls: false
   flow: null
   network: xhttp
-  servername: nnl2.figurapn.ru
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Martlesham%20%28Martlesham%20Heath%29%20%7C%20%5BBL%5D'
+  servername: nl5.safepass.click
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D'
   type: vless
-  server: l7.l-itx.info
-  port: 7443
-  uuid: 7ad4c072-db9e-4e79-a5e1-5ec2c00ee524
+  server: 194.87.115.225
+  port: 443
+  uuid: f6ca4401-06cb-476a-ae12-c039781fef51
+  tls: false
+  flow: null
+  network: tcp
+  servername: 194.87.115.225
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 185.196.117.80
+  port: 443
+  uuid: f815b837-8504-41f9-9a06-bd3c72d2fcf3
+  tls: false
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: 185.196.117.80
+- name: '%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D'
+  type: vless
+  server: tr-u5.vpn-port.com
+  port: 443
+  uuid: 946220c3-e136-4b82-bbbf-a2e6a8540db7
   tls: false
   flow: null
   network: grpc
-  servername: l7.l-itx.info
+  servername: tr-u5.vpn-port.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5BBL%5D'
+  type: vless
+  server: 62.182.192.195
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  tls: true
+  flow: null
+  network: ws
+  servername: vfa9.cdn-stream.fgfw.indevs.in
