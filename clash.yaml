@@ -3,33 +3,6 @@ log-level: info
 mode: rule
 mixed-port: 7890
 proxies:
-- name: '%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.66.47.123
-  port: 443
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  tls: true
-  flow: null
-  network: ws
-  servername: web-tomcat.pages.dev
-- name: '%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.66.47.123
-  port: 443
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  tls: true
-  flow: null
-  network: ws
-  servername: web-tomcat.pages.dev
-- name: '%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%5BBL%5D'
-  type: vless
-  server: web-tomcat.pages.dev
-  port: 443
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  tls: true
-  flow: null
-  network: ws
-  servername: web-tomcat.pages.dev
 - name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
   server: 151.101.36.111
@@ -59,16 +32,115 @@ proxies:
   servername: ovd11.global.ssl.fastly.net
 - name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 151.101.36.61
+  server: 151.101.36.111
   port: 443
   uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   tls: true
   flow: null
   network: xhttp
-  servername: ovd10.global.ssl.fastly.net
+  servername: ovd11.global.ssl.fastly.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.201
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: xhttp
+  servername: oh6.global.ssl.fastly.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.201
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: xhttp
+  servername: oh6.global.ssl.fastly.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.246
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: xhttp
+  servername: ovd12.global.ssl.fastly.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.246
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: xhttp
+  servername: ovd12.global.ssl.fastly.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.2
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: xhttp
+  servername: oh4.global.ssl.fastly.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.88
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: xhttp
+  servername: ovd5.global.ssl.fastly.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 3.168.217.190
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: ws
+  servername: d1afk2ndm8pox3.cloudfront.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 3.168.217.190
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: ws
+  servername: d1afk2ndm8pox3.cloudfront.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.2
+  port: 443
+  uuid: 9a46fb8c-fde6-492c-b5c6-8b44af0ce75f
+  tls: true
+  flow: null
+  network: xhttp
+  servername: oh4.global.ssl.fastly.net
+- name: '%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.88
+  port: 443
+  uuid: 9a46fb8c-fde6-492c-b5c6-8b44af0ce75f
+  tls: true
+  flow: null
+  network: xhttp
+  servername: ovd5.global.ssl.fastly.net
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.235
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  flow: null
+  network: xhttp
+  servername: ovd13.global.ssl.fastly.net
 - name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.19.112.134
+  server: 173.245.49.114
   port: 8443
   uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
   tls: true
@@ -77,34 +149,7 @@ proxies:
   servername: moz.ar-marz.fun
 - name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.19.112.134
-  port: 8443
-  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
-  tls: true
-  flow: null
-  network: ws
-  servername: moz.ar-marz.fun
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.24.21.163
-  port: 8443
-  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
-  tls: true
-  flow: null
-  network: ws
-  servername: moz.ar-marz.fun
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.110.86
-  port: 8443
-  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
-  tls: true
-  flow: null
-  network: ws
-  servername: moz.ar-marz.fun
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
-  type: vless
-  server: 190.93.244.47
+  server: 188.114.96.246
   port: 8443
   uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
   tls: true
@@ -120,78 +165,96 @@ proxies:
   flow: null
   network: ws
   servername: moz.ar-marz.fun
-- name: '%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 190.93.247.95
-  port: 8443
-  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
-  tls: true
-  flow: null
-  network: ws
-  servername: moz.ar-marz.fun
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Manchester%20%7C%20%5BBL%5D'
-  type: vless
-  server: 138.16.249.118
-  port: 14443
-  uuid: 010be6fa-ab5f-404a-9edf-ab2db1f09f0c
-  tls: true
-  flow: null
-  network: ws
-  servername: lt.krevetkabs111.net
-- name: '%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Manchester%20%7C%20%5BBL%5D'
-  type: vless
-  server: 138.16.249.118
-  port: 14443
-  uuid: 010be6fa-ab5f-404a-9edf-ab2db1f09f0c
-  tls: true
-  flow: null
-  network: ws
-  servername: lt.neuroblur.top
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A7%F0%9F%87%AA%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.134.136
+  server: 151.101.36.128
   port: 443
-  uuid: fa45096d-bed0-ad80-c773-23c300000003
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   tls: true
   flow: null
-  network: ws
-  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A7%F0%9F%87%AA%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  network: xhttp
+  servername: ovd7.global.ssl.fastly.net
+- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.67.134.136
+  server: 151.101.36.128
   port: 443
-  uuid: fa45096d-bed0-ad80-c773-23c300000003
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   tls: true
   flow: null
-  network: ws
-  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  network: xhttp
+  servername: ovd7.global.ssl.fastly.net
+- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.66.44.124
+  server: 151.101.36.253
   port: 443
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   tls: true
   flow: null
-  network: ws
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  network: xhttp
+  servername: ovd9.global.ssl.fastly.net
+- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.66.44.124
-  port: 8443
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  server: 151.101.36.253
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   tls: true
   flow: null
-  network: ws
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  network: xhttp
+  servername: ovd9.global.ssl.fastly.net
+- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.67.208.235
-  port: 2096
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
+  server: 151.101.36.128
+  port: 443
+  uuid: 9a46fb8c-fde6-492c-b5c6-8b44af0ce75f
+  tls: true
+  flow: null
+  network: xhttp
+  servername: ovd7.global.ssl.fastly.net
+- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 151.101.36.253
+  port: 443
+  uuid: 9a46fb8c-fde6-492c-b5c6-8b44af0ce75f
+  tls: true
+  flow: null
+  network: xhttp
+  servername: ovd9.global.ssl.fastly.net
+- name: '%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Wroclaw%20%28Krzyki%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 3.168.217.188
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   tls: true
   flow: null
   network: ws
-  servername: courses.mftplus.qzz.io
+  servername: d2ex4nxd2e01ub.cloudfront.net
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.18.151.231
+  port: 443
+  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  tls: true
+  flow: null
+  network: ws
+  servername: workers.jijew83195.workers.dev
+- name: '%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.18.151.231
+  port: 443
+  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  tls: true
+  flow: null
+  network: ws
+  servername: muddy-star-d195.aboumansour10313.workers.dev
+- name: '%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20North%20Bergen%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.21.58.37
+  port: 2053
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  tls: true
+  flow: null
+  network: ws
+  servername: fast.145779.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 104.18.33.141
@@ -221,85 +284,49 @@ proxies:
   servername: kclx.eu.org
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.67.65.56
-  port: 2053
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  tls: true
-  flow: null
-  network: ws
-  servername: whitecreeper.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.75.194
-  port: 2096
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  tls: true
-  flow: null
-  network: ws
-  servername: whitecreeper.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.18.41.190
+  server: 14f7f5f0.mrbl69black.pages.dev
   port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
   tls: true
   flow: null
   network: ws
-  servername: ex3r.qzz.io
+  servername: 14f7f5f0.mrbl69black.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: wangcai.cf.877774.xyz
+  server: 14f7f5f0.mrbl69black.pages.dev
   port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
   tls: true
   flow: null
   network: ws
-  servername: ex3r.qzz.io
+  servername: 14f7f5f0.mrbl69black.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.18.13.229
-  port: 8443
-  uuid: 1753c03f-39c4-4bf2-ae83-38e90c847e8e
-  tls: true
-  flow: null
-  network: ws
-  servername: ydyg0908.mynameiszt.eu.org
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: www.visa.com.sg
-  port: 8443
-  uuid: 1753c03f-39c4-4bf2-ae83-38e90c847e8e
-  tls: true
-  flow: null
-  network: ws
-  servername: ydyg0908.mynameiszt.eu.org
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 188.114.97.9
+  server: 172.66.44.78
   port: 443
-  uuid: 27135ee3-0829-4dbc-ae3e-b70e86e5d510
+  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
   tls: true
   flow: null
   network: ws
-  servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
+  servername: 14f7f5F0.MRBL69bLaCk.PagEs.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 188.114.97.9
+  server: tn1r.eu.cc
   port: 443
-  uuid: 27135ee3-0829-4dbc-ae3e-b70e86e5d510
+  uuid: 22424ee2-6fe3-42ca-9749-6d4c5a8acc82
   tls: true
   flow: null
   network: ws
-  servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
+  servername: tn1r.eu.cc
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.17.148.111
+  server: tn1r.eu.cc
   port: 443
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  uuid: 22424ee2-6fe3-42ca-9749-6d4c5a8acc82
   tls: true
   flow: null
   network: ws
-  servername: vpn-1fj.pages.dev
+  servername: tn1r.eu.cc
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 8.35.211.188
@@ -311,40 +338,31 @@ proxies:
   servername: vpn-1fj.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.64.146.116
+  server: 172.64.152.52
   port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
   tls: true
   flow: null
   network: ws
-  servername: support.zoom.us.blackshadow.dpdns.org
+  servername: cf.zhahui.de5.net
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: nuclear.us.kg
+  server: 172.64.156.111
   port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
   tls: true
   flow: null
   network: ws
-  servername: nuclear.us.kg
+  servername: cf.zhahui.de5.net
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: nuclear.us.kg
+  server: 104.18.221.221
   port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
   tls: true
   flow: null
   network: ws
-  servername: nuclear.us.kg
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 188.114.96.9
-  port: 443
-  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
-  tls: true
-  flow: null
-  network: ws
-  servername: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+  servername: cfnode-11ivy8.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 104.18.221.221
@@ -374,139 +392,40 @@ proxies:
   servername: cfnode-11ivy8.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: cf.090227.xyz
+  server: 141.101.115.230
   port: 443
-  uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
+  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
   tls: true
   flow: null
   network: ws
-  servername: oooyo.bi8bo.cyou
+  servername: cfnode-11ivy8.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.25.199.149
+  server: cfnode-11ivy8.pages.dev
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5dd075c8ae9b
+  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
   tls: true
   flow: null
   network: ws
-  servername: web-app-gjn19f.z0zxy6ehuwgs.workers.dev
+  servername: cfnode-11ivy8.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.67.137.19
+  server: cfnode-11ivy8.pages.dev
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5dd075c8ae9b
+  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
   tls: true
   flow: null
   network: ws
-  servername: web-app-gjn19f.z0zxy6ehuwgs.workers.dev
+  servername: cfnode-11ivy8.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.21.74.214
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  tls: true
-  flow: null
-  network: ws
-  servername: levikoconfig.levikogjgfdd.ir
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.21.74.214
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  tls: true
-  flow: null
-  network: ws
-  servername: levikoconfig.levikogjgfdd.ir
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 188.114.97.3
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  tls: true
-  flow: null
-  network: ws
-  servername: levikoconfig.levikogjgfdd.ir
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 188.114.97.6
+  server: proxy-34l.pages.dev
   port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
   tls: true
   flow: null
   network: ws
-  servername: levikoconfig.levikogjgfdd.ir
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: one-for-all.levikogjgfdd.ir
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  tls: true
-  flow: null
-  network: ws
-  servername: levikoconfig.levikogjgfdd.ir
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: one-for-all.levikogjgfdd.ir
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  tls: true
-  flow: null
-  network: ws
-  servername: levikoconfig.levikogjgfdd.ir
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: one-for-all.levikogjgfdd.ir
-  port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  tls: true
-  flow: null
-  network: ws
-  servername: levikoconfig.levikogjgfdd.ir
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.21.73.135
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  tls: true
-  flow: null
-  network: ws
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.27.110.37
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  tls: true
-  flow: null
-  network: ws
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.27.110.37
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  tls: true
-  flow: null
-  network: ws
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.27.124.133
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  tls: true
-  flow: null
-  network: ws
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-c67e6a7b76e9
-  tls: true
-  flow: null
-  network: ws
-  servername: kwzu1yelu3ms.ouzrzee5u7rs.workers.dev
+  servername: proxy-34l.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 104.18.45.236
@@ -518,31 +437,58 @@ proxies:
   servername: mohammadhoseini4532.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.64.147.34
+  server: 104.18.45.236
   port: 2096
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   tls: true
   flow: null
   network: ws
-  servername: go.iranfree.de5.net
+  servername: mohammadhoseini4532.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 8.35.211.185
-  port: 443
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
-  tls: true
-  flow: null
-  network: ws
-  servername: go.iranfree.de5.net
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 8.35.211.43
+  server: 104.26.6.109
   port: 2053
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   tls: true
   flow: null
   network: ws
-  servername: go.iranfree.de5.net
+  servername: pilot4f8f.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.26.6.109
+  port: 2053
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  tls: true
+  flow: null
+  network: ws
+  servername: pilot4f8f.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 162.159.152.58
+  port: 2087
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  tls: true
+  flow: null
+  network: ws
+  servername: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.66.0.118
+  port: 2087
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  tls: true
+  flow: null
+  network: ws
+  servername: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.67.67.89
+  port: 2087
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  tls: true
+  flow: null
+  network: ws
+  servername: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 188.114.96.3
@@ -551,25 +497,7 @@ proxies:
   tls: true
   flow: null
   network: ws
-  servername: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 162.159.130.234
-  port: 2083
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  tls: true
-  flow: null
-  network: ws
-  servername: vp25.1145678.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 162.159.130.234
-  port: 2083
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  tls: true
-  flow: null
-  network: ws
-  servername: vp14.1145678.xyz
+  servername: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 162.159.130.234
@@ -581,6 +509,78 @@ proxies:
   servername: vp8.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
+  server: 162.159.130.234
+  port: 2096
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp8.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 162.159.130.234
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp19.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 162.159.130.234
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp19.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 162.159.135.234
+  port: 2053
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp11.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 2053
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp11.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 2053
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp11.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 2053
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp21.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 2053
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp21.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
   server: saas.sin.fan
   port: 2053
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
@@ -614,7 +614,7 @@ proxies:
   tls: true
   flow: null
   network: ws
-  servername: vp6.1145678.xyz
+  servername: vp21.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
@@ -627,48 +627,12 @@ proxies:
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
-  port: 2083
+  port: 2087
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   tls: true
   flow: null
   network: ws
-  servername: vp25.1145678.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: saas.sin.fan
-  port: 2083
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  tls: true
-  flow: null
-  network: ws
-  servername: vp14.1145678.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: saas.sin.fan
-  port: 2083
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  tls: true
-  flow: null
-  network: ws
-  servername: vp25.1145678.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: saas.sin.fan
-  port: 2083
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  tls: true
-  flow: null
-  network: ws
-  servername: vp25.1145678.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: saas.sin.fan
-  port: 2083
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  tls: true
-  flow: null
-  network: ws
-  servername: vp7.1145678.xyz
+  servername: vp2.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
@@ -677,7 +641,7 @@ proxies:
   tls: true
   flow: null
   network: ws
-  servername: vp6.1145678.xyz
+  servername: vp2.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
@@ -704,34 +668,52 @@ proxies:
   tls: true
   flow: null
   network: ws
-  servername: vp6.1145678.xyz
+  servername: vp3.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
-  port: 2096
+  port: 2087
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   tls: true
   flow: null
   network: ws
-  servername: vp6.1145678.xyz
+  servername: vp3.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
-  port: 2096
+  port: 2087
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   tls: true
   flow: null
   network: ws
-  servername: vp13.1145678.xyz
+  servername: vp2.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
-  port: 2096
+  port: 2087
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   tls: true
   flow: null
   network: ws
-  servername: vp13.1145678.xyz
+  servername: vp3.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 2087
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp2.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 2087
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp2.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
@@ -749,7 +731,16 @@ proxies:
   tls: true
   flow: null
   network: ws
-  servername: vp13.1145678.xyz
+  servername: vp9.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 2096
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp9.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
@@ -776,7 +767,52 @@ proxies:
   tls: true
   flow: null
   network: ws
+  servername: vp12.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp12.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
   servername: vp22.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp22.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp5.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
+  servername: vp12.1145678.xyz
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: saas.sin.fan
@@ -803,25 +839,16 @@ proxies:
   tls: true
   flow: null
   network: ws
+  servername: vp5.1145678.xyz
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  flow: null
+  network: ws
   servername: vp22.1145678.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.18.34.16
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  tls: true
-  flow: null
-  network: ws
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.64.144.198
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  tls: true
-  flow: null
-  network: ws
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 172.64.145.94
@@ -833,85 +860,31 @@ proxies:
   servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.64.147.91
+  server: 172.64.145.94
   port: 443
   uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   tls: true
   flow: null
   network: ws
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.64.147.91
+  server: 172.64.145.94
   port: 443
   uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   tls: true
   flow: null
   network: ws
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.64.150.18
+  server: 172.64.150.248
   port: 443
   uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   tls: true
   flow: null
   network: ws
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.64.153.213
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  tls: true
-  flow: null
-  network: ws
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.64.156.185
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  tls: true
-  flow: null
-  network: ws
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.64.157.52
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  tls: true
-  flow: null
-  network: ws
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 8.6.112.242
-  port: 443
-  uuid: 64726966-0000-4000-8000-740000000000
-  tls: true
-  flow: null
-  network: ws
-  servername: parsa-panel-dy55x.railway1385-2a46.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 8.6.112.242
-  port: 443
-  uuid: 64726966-0000-4000-8000-740000000000
-  tls: true
-  flow: null
-  network: ws
-  servername: parsa-panel-dy55x.railway1385-2a46.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.128.201
-  port: 443
-  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
-  tls: true
-  flow: null
-  network: ws
-  servername: ld.235231.xyz
+  servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 188.114.97.3
@@ -923,45 +896,18 @@ proxies:
   servername: xa6jgykbpcfy6na3tt4zeefsquy2x5kank9hmzdqieofbqkbv3kukzmdfsssaaa.b5mq1ob64b.workers.Dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.17.165.248
-  port: 2087
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  tls: true
-  flow: null
-  network: ws
-  servername: vp21.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.17.167.185
-  port: 2083
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  tls: true
-  flow: null
-  network: ws
-  servername: vp21.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.17.167.185
-  port: 2083
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  tls: true
-  flow: null
-  network: ws
-  servername: vp21.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.66.1.12
-  port: 2053
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  tls: true
-  flow: null
-  network: ws
-  servername: vp21.cc.cd
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
   server: 172.67.155.222
   port: 443
   uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
+  tls: true
+  flow: null
+  network: ws
+  servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.67.184.45
+  port: 443
+  uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
   tls: true
   flow: null
   network: ws
@@ -977,22 +923,13 @@ proxies:
   servername: wallweb5.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.64.144.240
+  server: www.speedtest.net
   port: 443
-  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  uuid: 85550ebf-fd43-42dd-9801-bda528fea2fc
   tls: true
   flow: null
   network: ws
-  servername: pmpmppm.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
-  tls: true
-  flow: null
-  network: ws
-  servername: pmpmppm.pages.dev
+  servername: wallweb5.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 104.18.40.171
@@ -1022,16 +959,97 @@ proxies:
   servername: wallweb-boi.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 162.159.152.4
+  server: 104.18.34.33
   port: 443
-  uuid: 8d42d29a-ed53-4684-a9ff-6b33826149de
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   tls: true
   flow: null
   network: ws
-  servername: aio.eth0.dpdns.org
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.18.40.33
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.21.41.243
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.24.196.20
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: 162.159.198.1
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 162.159.198.1
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 162.159.198.1
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.64.150.28
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.64.153.33
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.64.155.33
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.67.74.177
   port: 443
   uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   tls: true
@@ -1085,6 +1103,15 @@ proxies:
   servername: fs.qicai99.com
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
+  server: fs.qicai99.com
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  flow: null
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
   server: yx.l110.us.ci
   port: 443
   uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
@@ -1094,49 +1121,58 @@ proxies:
   servername: fs.qicai99.com
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 104.18.1.1
-  port: 2083
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  tls: true
-  flow: null
-  network: ws
-  servername: vlsovip.1d.mom
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.74.90
+  server: yx.l110.us.ci
   port: 443
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   tls: true
   flow: null
   network: ws
-  servername: cvhpyn.pages.dev
+  servername: fs.qicai99.com
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.67.74.90
-  port: 443
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  tls: true
-  flow: null
-  network: ws
-  servername: cvhpyn.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.79.160
-  port: 2087
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  tls: true
-  flow: null
-  network: ws
-  servername: cvhpyn.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: help1.digikala-aparat-zula.com
+  server: epam.com
   port: 443
   uuid: af51de90-852d-4eb6-a0c3-9ecca170385e
   tls: true
   flow: null
   network: ws
   servername: wallweb-av6.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: epam.com
+  port: 443
+  uuid: af51de90-852d-4eb6-a0c3-9ecca170385e
+  tls: true
+  flow: null
+  network: ws
+  servername: wallweb-av6.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: af51de90-852d-4eb6-a0c3-9ecca170385e
+  tls: true
+  flow: null
+  network: ws
+  servername: wallweb-av6.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: ip13.shabkhosh.sbs
+  port: 443
+  uuid: bf20cf5a-30c1-4022-9bcb-ba798ad51531
+  tls: true
+  flow: null
+  network: ws
+  servername: wallweb7.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 162.159.152.205
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  tls: true
+  flow: null
+  network: ws
+  servername: vless2-8vx.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
   server: spacex.com
@@ -1148,122 +1184,14 @@ proxies:
   servername: wallweb6.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.64.147.85
+  server: 104.17.44.17
   port: 443
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
   tls: true
   flow: null
   network: ws
-  servername: wallweb-4r0.pages.dev
+  servername: top-e4s.pages.dev
 - name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.64.147.85
-  port: 443
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
-  tls: true
-  flow: null
-  network: ws
-  servername: wallweb-4r0.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: e7727c1e-c5a7-4810-b31a-2eeb22f95d6d
-  tls: true
-  flow: null
-  network: ws
-  servername: kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.21.108.4
-  port: 443
-  uuid: fa45096d-bed0-ad80-c773-23c300000018
-  tls: true
-  flow: null
-  network: ws
-  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B3%F0%9F%87%B1%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.184.45
-  port: 443
-  uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
-  tls: true
-  flow: null
-  network: ws
-  servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B3%F0%9F%87%B1%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.184.45
-  port: 443
-  uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
-  tls: true
-  flow: null
-  network: ws
-  servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B3%F0%9F%87%B1%20%7C%20%5BBL%5D'
-  type: vless
-  server: 162.159.153.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  tls: true
-  flow: null
-  network: ws
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5BBL%5D'
-  type: vless
-  server: 789156.xyz
-  port: 443
-  uuid: 5f11c240-89df-494c-9c81-8b619023bb58
-  tls: true
-  flow: null
-  network: ws
-  servername: 789156.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%AC%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.75.194
-  port: 2096
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  tls: true
-  flow: null
-  network: ws
-  servername: whitecreeper.pages.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%AC%20%7C%20%5BBL%5D'
-  type: vless
-  server: ld.235231.xyz
-  port: 443
-  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
-  tls: true
-  flow: null
-  network: ws
-  servername: ld.235231.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D'
-  type: vless
-  server: 172.67.174.10
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  tls: true
-  flow: null
-  network: ws
-  servername: blackshadow.dpdns.org
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D'
-  type: vless
-  server: 789156.xyz
-  port: 443
-  uuid: 5f11c240-89df-494c-9c81-8b619023bb58
-  tls: true
-  flow: null
-  network: ws
-  servername: 789156.xyz
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D'
-  type: vless
-  server: 104.16.72.30
-  port: 443
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  tls: true
-  flow: null
-  network: ws
-  servername: xstack.mahanfixe.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D'
   type: vless
   server: 188.114.97.3
   port: 443
@@ -1272,30 +1200,111 @@ proxies:
   flow: null
   network: ws
   servername: kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%B7%20%F0%9F%87%AE%F0%9F%87%AA%20%F0%9F%87%B0%F0%9F%87%B7%20%7C%20%5BBL%5D'
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.67.197.172
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-85d1d3cdee8d
-  tls: true
-  flow: null
-  network: ws
-  servername: dnzt7iejuars.dewy-birch-9ee5.workers.dev
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
-  type: vless
-  server: nuclear.us.kg
+  server: 188.114.97.3
   port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  uuid: e7727c1e-c5a7-4810-b31a-2eeb22f95d6d
   tls: true
   flow: null
   network: ws
-  servername: nuclear.us.kg
-- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%AC%20%7C%20%5BBL%5D'
+  servername: kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
   type: vless
-  server: 172.67.65.56
-  port: 2053
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  server: 188.114.97.3
+  port: 443
+  uuid: e7727c1e-c5a7-4810-b31a-2eeb22f95d6d
   tls: true
   flow: null
   network: ws
-  servername: whitecreeper.pages.dev
+  servername: kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: snowflake.com
+  port: 443
+  uuid: e818a20d-9bcd-4744-9061-ca51b9c8aeea
+  tls: true
+  flow: null
+  network: ws
+  servername: wallweb-4ez.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: ec23f217-23a1-4f62-b98d-ba56070de89c
+  tls: true
+  flow: null
+  network: ws
+  servername: wallweb4.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.67.131.125
+  port: 2083
+  uuid: f418674e-f518-4318-8ff9-e10000000046
+  tls: true
+  flow: null
+  network: ws
+  servername: smart-edge-424.arti98399-1905.workers.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 172.67.131.125
+  port: 2083
+  uuid: f418674e-f518-4318-8ff9-e10000000046
+  tls: true
+  flow: null
+  network: ws
+  servername: smart-edge-424.arti98399-1905.workers.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.17.177.160
+  port: 8443
+  uuid: fceb3200-2516-47d2-8e28-d04ecde9427a
+  tls: true
+  flow: null
+  network: ws
+  servername: edge-fef90023.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.19.52.70
+  port: 8443
+  uuid: fceb3200-2516-47d2-8e28-d04ecde9427a
+  tls: true
+  flow: null
+  network: ws
+  servername: edge-fef90023.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.19.52.70
+  port: 8443
+  uuid: fceb3200-2516-47d2-8e28-d04ecde9427a
+  tls: true
+  flow: null
+  network: ws
+  servername: edge-fef90023.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.19.52.70
+  port: 8443
+  uuid: fceb3200-2516-47d2-8e28-d04ecde9427a
+  tls: true
+  flow: null
+  network: ws
+  servername: edge-fef90023.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.19.52.70
+  port: 8443
+  uuid: fceb3200-2516-47d2-8e28-d04ecde9427a
+  tls: true
+  flow: null
+  network: ws
+  servername: edge-fef90023.pages.dev
+- name: '%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D'
+  type: vless
+  server: 104.18.28.234
+  port: 2053
+  uuid: c7653db5-1fa9-9a64-331a-d80c00000050
+  tls: true
+  flow: null
+  network: ws
+  servername: turbo-smart-628.pokfjfjfdjj.workers.dev
